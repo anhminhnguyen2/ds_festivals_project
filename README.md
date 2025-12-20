@@ -4,4 +4,5 @@ The purpose of this project is to help music lovers to predict the line up of th
 
 Tutorials videos from [YouTube](https://www.youtube.com):
 - [Ken Jee](https://www.youtube.com/@KenJee_ds)'s Data Science Project from Scratch series. 
-- [Alex The Analyst](https://youtu.be/8dTpNajxaH0?si=alUzpn-dE3lk3T28) for web scraping.
+- [Alex The Analyst](https://youtu.be/8dTpNajxaH0?si=alUzpn-dE3lk3T28) for web scraping and data cleaning
+    https://www.youtube.com/watch?v=bDhvCp3_lYw 
