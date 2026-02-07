@@ -1,6 +1,8 @@
 from playwright.sync_api import sync_playwright
+from playwright_stealth import stealth_sync
 import pandas as pd
 import time
+import random
 import os
 
 # --- CONFIGURATION ---
@@ -22,26 +24,49 @@ data_results = []
 
 def scrape_songstats():
     with sync_playwright() as p:
-        # Launch browser
-        browser = p.chromium.launch(headless=False)
-        context = browser.new_context()
+        # Launch browser with stealth arguments
+        browser = p.chromium.launch(
+            headless=False,
+            args=["--disable-blink-features=AutomationControlled"]
+        )
+        
+        # Create context with a real user agent
+        context = browser.new_context(
+            user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            viewport={"width": 1280, "height": 800},
+            locale="en-US"
+        )
+        
         page = context.new_page()
+        stealth_sync(page)
         
         print("Opening Songstats...")
         page.goto("https://songstats.com/welcome")
         
         # Initial safe pause
-        time.sleep(3)
+        time.sleep(random.uniform(3, 5))
         
         for i, artist in enumerate(artists):
             print(f"[{i+1}/{len(artists)}] Processing: {artist}")
             row_data = {"Artist": artist}
             
             try:
-                # 1. ALWAYS go to welcome page to reset state and search bar
-                page.goto("https://songstats.com/welcome")
+                # 1. Reset state to search page
+                # For first artist, we are already there. For others, click logo to return.
+                if i > 0:
+                    try:
+                        # Try clicking the logo to return to welcome/dashboard
+                        # Heuristic: finding the main logo link
+                        logo = page.locator('a[href="/welcome"], a[href="/dashboard"], a[href="/"]').first
+                        if logo.count() > 0 and logo.is_visible():
+                            logo.click()
+                        else:
+                            page.goto("https://songstats.com/welcome")
+                    except Exception:
+                        page.goto("https://songstats.com/welcome")
+
                 page.wait_for_load_state("networkidle")
-                time.sleep(1)
+                time.sleep(random.uniform(2, 4))
                 
                 # 2. Search
                 # Locate the search bar. Based on screenshot it has a specific placeholder or is a text input
@@ -49,7 +74,7 @@ def scrape_songstats():
                 
                 search_input.click()
                 search_input.fill(artist)
-                time.sleep(2) # Wait for dropdown results to populate
+                time.sleep(random.uniform(2, 3)) # Wait for dropdown results to populate
                 
                 # 2. Select the first result
                 # Instruction: Press Enter, choose Artists tab, choose top option.
@@ -149,7 +174,7 @@ def scrape_songstats():
                 data_results.append(row_data)
                 
                 # Brief pause between artists
-                time.sleep(2)
+                time.sleep(random.uniform(3, 6))
                 
             except Exception as e:
                 print(f"   -> Error on {artist}: {e}")
