@@ -44,7 +44,7 @@ def scrape_songstats():
         page.goto("https://songstats.com/welcome")
         
         # Initial safe pause
-        time.sleep(random.uniform(3, 5))
+        time.sleep(random.randint(3, 5))
         
         for i, artist in enumerate(artists):
             print(f"[{i+1}/{len(artists)}] Processing: {artist}")
@@ -74,18 +74,18 @@ def scrape_songstats():
                 
                 search_input.click()
                 search_input.fill(artist)
-                time.sleep(random.uniform(2, 3)) # Wait for dropdown results to populate
+                time.sleep(random.randint(1, 3)) # Wait for dropdown results to populate
                 
                 # 2. Select the first result
                 # Instruction: Press Enter, choose Artists tab, choose top option.
                 page.keyboard.press("Enter")
-                time.sleep(2)
+                time.sleep(random.randint(1, 3))
                 
                 # Click "Artists" filter tab to ensure we get artists
                 try:
                     # We look for the "Artists" text and click it.
                     page.get_by_text("Artists", exact=True).first.click()
-                    time.sleep(2)
+                    time.sleep(random.randint(2, 6))
                 except Exception:
                     pass # Continue if tab not found
 
@@ -102,7 +102,7 @@ def scrape_songstats():
                          # We look for a link to an artist page or just the first image
                         page.locator('a[href*="/artist/"]').first.click()
 
-                    time.sleep(2)
+                    time.sleep(random.randint(2, 6))
                 
                 # 3. Extract Info
                 # Check if we are on a valid page
