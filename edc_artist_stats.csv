@@ -1,14 +1,40 @@
 Artist,Followers,Streams,Playlists,Playlist Reach,Charts,Shazams,Videos,Views,DJ Supports,Error
-1080p,6,5986,1,641,N/A,17,45,9800,N/A,
+1080p,6,5986,1,641,,17,45,9800,,
 A Shade of Black,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
-Aaron K,1,2163,N/A,Playlist Reach,1,4,2,N/A,N/A,
-Abana,7710,468K,175,4.22M,60,15.3K,110,1.89M,93,
-D. Zeledon,5776,69.6K,25,218K,18,764,31,9672,58,
-ACRAZE,828K,1.63B,23.7K,604M,2744,12.6M,2.89M,22.2B,7698,
-KREAM,1.49M,1.53B,17.6K,315M,887,3.57M,335K,475M,9987,
-Adam Beyer,3.78M,254M,8314,123M,822,2M,24.7K,166M,14.6K,
-Adam Pearce,25.5K,19.8M,810,21.9M,157,14.1K,1632,2.44M,59,
-Adam X,36.3K,569K,90,453K,96,5981,36,9173,54,
+Aaron K,1,2163,,Playlist Reach,1.0,4,2,,,
+Abana,7710,468K,175,4.22M,60.0,15.3K,110,1.89M,93,
+D. Zeledon,5776,69.6K,25,218K,18.0,764,31,9672,58,
+ACRAZE,828K,1.63B,23.7K,604M,2744.0,12.6M,2.89M,22.2B,7698,
+KREAM,1.49M,1.53B,17.6K,315M,887.0,3.57M,335K,475M,9987,
+Adam Beyer,3.78M,254M,8314,123M,822.0,2M,24.7K,166M,14.6K,
+Adam Pearce,25.5K,19.8M,810,21.9M,157.0,14.1K,1632,2.44M,59,
+Adam X,36.3K,569K,90,453K,96.0,5981,36,9173,54,
+Adrenalize,318K,134M,2708,15.4M,157,174K,2018,9.82M,2887,
+Wasted Penguinz,697K,214M,2623,18.6M,173,343K,3498,15.6M,2704,
+Adventure Club,4.04M,1.26B,8099,98.3M,517,4.4M,48.6K,74.2M,1599,
+AFROdisiac,4515,1.62M,90,576K,1,2405,123,49.9K,N/A,
+Airglo,31.7K,6.69M,641,5.91M,172,34.6K,787,2.08M,356,
+Airwolf Paradise,79.2K,40.4M,2569,42.9M,347,435K,3346,25.8M,2357,
+Akaio,30,10.7K,1,689,N/A,4,1,163,N/A,
+Alchimyst,121K,15.7M,836,17.7M,235,101K,43.4K,85.8M,525,
+Alesso,22.4M,11.7B,60.4K,901M,3321,67.9M,627K,1.94B,35.2K,
+Algo,72.4K,7.8M,420,15M,33,11.1K,221,520K,378,
+Alison Wonderland,4.18M,901M,10.2K,188M,706,3.24M,50.1K,163M,5183,
+Aly & Fila,3.11M,300M,3285,35.8M,991,3.19M,21.5K,33.4M,18.4K,
+Andrew Bayer,536K,162M,3702,56.1M,784,1.97M,33.4K,258M,10.3K,
+Andrew Rayel,2.06M,469M,6704,115M,763,2.76M,53.2K,103M,14.8K,
+Andruss,145K,124M,4762,81.7M,742,1.57M,31.7K,129M,5255,
+Angerfist,4.74M,955M,4856,23.5M,532,1.41M,78.3K,204M,7874,
+Arboles Pintados,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""a[href*=\""/artist/\""]"").first
+"
+Argy,1.72M,686M,9390,151M,1436,9.37M,487K,1.2B,11K,
+arman.,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""a[href*=\""/artist/\""]"").first
+"
+Armin van Buuren,35.2M,14.4B,57K,656M,3203,80.9M,2.49M,6.99N,79.4K,

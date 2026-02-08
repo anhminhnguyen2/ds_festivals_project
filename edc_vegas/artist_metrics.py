@@ -1,5 +1,4 @@
 from playwright.sync_api import sync_playwright
-from playwright_stealth import stealth_sync
 import pandas as pd
 import time
 import random
@@ -23,22 +22,40 @@ except Exception as e:
 data_results = []
 
 def scrape_songstats():
+    # --- RESUME & BATCH LOGIC ---
+    processed_artists = set()
+    existing_df = pd.DataFrame()
+    
+    if os.path.exists(output_file):
+        try:
+            existing_df = pd.read_csv(output_file)
+            if 'Artist' in existing_df.columns:
+                processed_artists = set(existing_df['Artist'].tolist())
+            print(f"Resuming: Found {len(processed_artists)} already processed artists.")
+        except Exception as e:
+            print(f"Error reading existing file: {e}")
+
+    # Filter artists
+    remaining_artists = [a for a in artists if a not in processed_artists]
+    
+    # Batch limit
+    BATCH_SIZE = 20
+    if len(remaining_artists) > BATCH_SIZE:
+        print(f"Batching: Selecting next {BATCH_SIZE} artists from {len(remaining_artists)} remaining.")
+        artists_to_process = remaining_artists[:BATCH_SIZE]
+    else:
+        print(f"Processing remaining {len(remaining_artists)} artists.")
+        artists_to_process = remaining_artists
+
+    if not artists_to_process:
+        print("All artists have been processed!")
+        return
+
     with sync_playwright() as p:
-        # Launch browser with stealth arguments
-        browser = p.chromium.launch(
-            headless=False,
-            args=["--disable-blink-features=AutomationControlled"]
-        )
-        
-        # Create context with a real user agent
-        context = browser.new_context(
-            user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-            viewport={"width": 1280, "height": 800},
-            locale="en-US"
-        )
-        
+        # Launch browser
+        browser = p.chromium.launch(headless=False)
+        context = browser.new_context()
         page = context.new_page()
-        stealth_sync(page)
         
         print("Opening Songstats...")
         page.goto("https://songstats.com/welcome")
@@ -46,31 +63,22 @@ def scrape_songstats():
         # Initial safe pause
         time.sleep(random.randint(3, 5))
         
-        for i, artist in enumerate(artists):
-            print(f"[{i+1}/{len(artists)}] Processing: {artist}")
+        for i, artist in enumerate(artists_to_process):
+            print(f"[{i+1}/{len(artists_to_process)}] Processing: {artist}")
             row_data = {"Artist": artist}
             
             try:
-                # 1. Reset state to search page
-                # For first artist, we are already there. For others, click logo to return.
-                if i > 0:
-                    try:
-                        # Try clicking the logo to return to welcome/dashboard
-                        # Heuristic: finding the main logo link
-                        logo = page.locator('a[href="/welcome"], a[href="/dashboard"], a[href="/"]').first
-                        if logo.count() > 0 and logo.is_visible():
-                            logo.click()
-                        else:
-                            page.goto("https://songstats.com/welcome")
-                    except Exception:
-                        page.goto("https://songstats.com/welcome")
-
+                # 1. ALWAYS go to welcome page to reset state and search bar
+                page.goto("https://songstats.com/welcome")
                 page.wait_for_load_state("networkidle")
                 time.sleep(random.uniform(2, 4))
                 
                 # 2. Search
-                # Locate the search bar. Based on screenshot it has a specific placeholder or is a text input
-                search_input = page.locator('input[type="text"]').first
+                # Locate the search bar using the specific ID found in devtools
+                # Fallback to other selectors if ID not found
+                search_input = page.locator('#entitySearchBarInput')
+                if search_input.count() == 0:
+                     search_input = page.locator('input[placeholder*="Search"], input[aria-label*="Search"], input[type="text"]').first
                 
                 search_input.click()
                 search_input.fill(artist)
@@ -183,13 +191,31 @@ def scrape_songstats():
 
             # Save periodically
             if (i + 1) % 10 == 0:
-                pd.DataFrame(data_results).to_csv(output_file, index=False)
+                current_df = pd.DataFrame(data_results)
+                # Combine with existing
+                if not existing_df.empty:
+                    combined_df = pd.concat([existing_df, current_df], ignore_index=True)
+                else:
+                    combined_df = current_df
+                
+                combined_df.to_csv(output_file, index=False)
+                print(f"   -> Progress saved ({len(combined_df)} records).")
 
         browser.close()
     
     # Final Save
-    pd.DataFrame(data_results).to_csv(output_file, index=False)
+    current_df = pd.DataFrame(data_results)
+    if not existing_df.empty:
+        combined_df = pd.concat([existing_df, current_df], ignore_index=True)
+    else:
+        combined_df = current_df
+    combined_df.to_csv(output_file, index=False)
     print(f"Done. Saved to {output_file}")
+    
+    if len(remaining_artists) > BATCH_SIZE:
+         print("[INFO] Batch complete. Run the script again to continue.")
+    else:
+         print("All tasks complete.")
 
 if __name__ == "__main__":
     scrape_songstats()
