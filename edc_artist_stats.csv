@@ -130,18 +130,18 @@ DJ Minx,78.2K,6.81M,1328,26.5M,333.0,70.1K,539,1.62M,1284,
 DJ Snake,75.7M,35.1B,106K,1.37B,4715.0,206M,57.5M,29.5B,29.6K,
 Dom Dolla,4.21M,2.03B,24.1K,375M,1715.0,11M,290K,1.6B,13.8K,
 Doses,3343,34.1K,4,67.4K,,22,7,3547,,
-DREYA V,40.7K,7.55M,1260,41.5M,190,59K,526,1.65M,1030,
-East End Dubs,501K,35.9M,1547,15.2M,241,203K,1264,5.1M,1674,
-Egzod,677K,1.74B,7181,84.4M,1299,8.48M,2.29M,14.5B,285,
-Eli Brown,750K,581M,14K,231M,1277,3.64M,35.1K,212M,14.6K,
-HI-LO,731K,394M,8828,134M,740,2.35M,43.1K,204M,11.9K,
-Emorfik,262K,12.7M,483,5.86M,59,11.4K,1688,5.06M,193,
-Eric Prydz,3.14M,3.01B,26.4K,246M,1870,27.7M,163K,938M,17.5K,
-Everen Maxwell,24.4K,48.2M,578,10.1M,240,72.9K,4431,24.9M,189,
-Excision,6.3M,1.45B,8727,89.9M,1170,3.37M,106K,495M,14.5K,
-Fallen,2303,21.7M,599,18.8M,42,26.4K,1240,8.03M,23,
-Fury,62.9K,3.92M,89,251K,14,17K,458,543K,1,
-Nightstalker,163K,8.59M,136,742K,28,53.6K,215,253K,N/A,
+DREYA V,40.7K,7.55M,1260,41.5M,190.0,59K,526,1.65M,1030,
+East End Dubs,501K,35.9M,1547,15.2M,241.0,203K,1264,5.1M,1674,
+Egzod,677K,1.74B,7181,84.4M,1299.0,8.48M,2.29M,14.5B,285,
+Eli Brown,750K,581M,14K,231M,1277.0,3.64M,35.1K,212M,14.6K,
+HI-LO,731K,394M,8828,134M,740.0,2.35M,43.1K,204M,11.9K,
+Emorfik,262K,12.7M,483,5.86M,59.0,11.4K,1688,5.06M,193,
+Eric Prydz,3.14M,3.01B,26.4K,246M,1870.0,27.7M,163K,938M,17.5K,
+Everen Maxwell,24.4K,48.2M,578,10.1M,240.0,72.9K,4431,24.9M,189,
+Excision,6.3M,1.45B,8727,89.9M,1170.0,3.37M,106K,495M,14.5K,
+Fallen,2303,21.7M,599,18.8M,42.0,26.4K,1240,8.03M,23,
+Fury,62.9K,3.92M,89,251K,14.0,17K,458,543K,1,
+Nightstalker,163K,8.59M,136,742K,28.0,53.6K,215,253K,,
 Dknow (MC Dino),,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
@@ -150,9 +150,32 @@ Fallen&Dknow (MC Dino),,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
-Fallon,46K,57.2M,2824,69M,414,493K,10.6K,199M,1272,
-Ferry Corsten,2.57M,729M,10.3K,104M,1310,6.11M,52.3K,145M,28.7K,
-Fester,2600,18.3K,26,375K,3,124,19,5177,7,
-Fireworks,160K,11.2M,180,1.07M,12,8563,106,40.6K,N/A,
-Fisher,20.1K,693M,11.7K,230M,1120,3.97M,108K,312M,6037,
-Fleur Shore,405K,3.93M,796,19.8M,111,38.2K,868,12.5M,957,
+Fallon,46K,57.2M,2824,69M,414.0,493K,10.6K,199M,1272,
+Ferry Corsten,2.57M,729M,10.3K,104M,1310.0,6.11M,52.3K,145M,28.7K,
+Fester,2600,18.3K,26,375K,3.0,124,19,5177,7,
+Fireworks,160K,11.2M,180,1.07M,12.0,8563,106,40.6K,,
+Fisher,20.1K,693M,11.7K,230M,1120.0,3.97M,108K,312M,6037,
+Fleur Shore,405K,3.93M,796,19.8M,111.0,38.2K,868,12.5M,957,
+Four Tet,4.23M,2.85B,35.3K,424M,2033,22.4M,143K,829M,6577,
+Fredy Lane,14.3K,1.22M,314,11.1M,15,1895,610,7.94M,80,
+Friendly Fire,2611,1.93M,218,2.85M,16,3755,74,117K,193,
+FrostTop,45.5K,17.9M,955,16.8M,169,27.4K,781,4.63M,951,
+RemK,62.7K,13.1M,696,19.8M,135,24K,878,7.69M,817,
+fun2bjane,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""a[href*=\""/artist/\""]"").first
+"
+mad gavs,,,,,,,,,,Navigation Failed
+GEO,12.7K,5.16M,180,1.03M,36,19.4K,2932,2.92M,45,
+Ghastly,1.13M,264M,4365,85.4M,386,399K,8011,22.8M,2660,
+Ghost in Real Life,32.4K,3.9M,419,8.48M,14,6428,223,506K,140,
+Giuseppe Ottaviani,,,,,,,,,,"Page.goto: Target page, context or browser has been closed"
+GRAVEDGR,,,,,,,,,,"Page.goto: Target page, context or browser has been closed"
+Gryffin,,,,,,,,,,"Page.goto: Target page, context or browser has been closed"
+HAAi,,,,,,,,,,"Page.goto: Target page, context or browser has been closed"
+HALIENE,,,,,,,,,,"Page.goto: Target page, context or browser has been closed"
+Hamdi,,,,,,,,,,"Page.goto: Target page, context or browser has been closed"
+Hannah Laing,,,,,,,,,,"Page.goto: Target page, context or browser has been closed"
+Harmson,,,,,,,,,,"Page.goto: Target page, context or browser has been closed"
+Harristone,,,,,,,,,,"Page.goto: Target page, context or browser has been closed"
+Hedex,,,,,,,,,,"Page.goto: Target page, context or browser has been closed"
