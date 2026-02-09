@@ -731,8 +731,8 @@ Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
 A-Trak,7.92M,2.61B,33.3K,348M,2044.0,27M,274K,783M,14.5K,
-Craze,449K,46.3M,1338,13.8M,163,614K,9100,1.36M,556,
-A.M.C,337K,79.7M,2204,14.9M,314,326K,6461,32.6M,2406,
+Craze,449K,46.3M,1338,13.8M,163.0,614K,9100,1.36M,556,
+A.M.C,337K,79.7M,2204,14.9M,314.0,326K,6461,32.6M,2406,
 ACIDTWIINS,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
@@ -745,21 +745,50 @@ Air2Earth,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
-Alan Walker,133M,32.4B,66.2K,1.03B,4359,149M,27.9M,45B,10.7K,
-Alexandar Smash,8978,7.48M,382,12.2M,100,30.4K,146,969K,119,
-Alix Perez,509K,116M,3283,19M,637,537K,6485,10M,4203,
-Alyx Ander,32.1K,42M,1789,67.1M,258,236K,1127,2.89M,432,
-ANATTA,38.3K,5.25M,1010,10.2M,85,23.3K,460,1.55M,370,
-Anderson M,7124,313K,96,659K,18,1145,141,42.2K,75,
-Anfisa Letyago,2.42M,45.2M,2642,41.7M,615,286K,6080,21.2M,1529,
-Ann Clue,391K,78.7M,1663,22.4M,347,413K,8185,33.4M,325,
-The Archer,22.4K,10.9M,906,19.7M,82,58.6K,1456,14.1M,293,
-ATB,3.69M,2.39B,24.3K,527M,2157,24.9M,386K,679M,4839,
-Audien,1.64M,1.9B,12.4K,174M,942,6.08M,396K,1.49B,8421,
+Alan Walker,133M,32.4B,66.2K,1.03B,4359.0,149M,27.9M,45B,10.7K,
+Alexandar Smash,8978,7.48M,382,12.2M,100.0,30.4K,146,969K,119,
+Alix Perez,509K,116M,3283,19M,637.0,537K,6485,10M,4203,
+Alyx Ander,32.1K,42M,1789,67.1M,258.0,236K,1127,2.89M,432,
+ANATTA,38.3K,5.25M,1010,10.2M,85.0,23.3K,460,1.55M,370,
+Anderson M,7124,313K,96,659K,18.0,1145,141,42.2K,75,
+Anfisa Letyago,2.42M,45.2M,2642,41.7M,615.0,286K,6080,21.2M,1529,
+Ann Clue,391K,78.7M,1663,22.4M,347.0,413K,8185,33.4M,325,
+The Archer,22.4K,10.9M,906,19.7M,82.0,58.6K,1456,14.1M,293,
+ATB,3.69M,2.39B,24.3K,527M,2157.0,24.9M,386K,679M,4839,
+Audien,1.64M,1.9B,12.4K,174M,942.0,6.08M,396K,1.49B,8421,
 Audiofreq&Code Black&Toneshifterz,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
-Autograf,857K,556M,8777,139M,832,1.86M,27.7K,101M,1189,
-Avision,134K,11.1M,1369,11.2M,415,589K,1309,2.04M,3267,
-Baby Weight,19.3K,1.73M,588,14.8M,140,13K,605,7.33M,236,
+Autograf,857K,556M,8777,139M,832.0,1.86M,27.7K,101M,1189,
+Avision,134K,11.1M,1369,11.2M,415.0,589K,1309,2.04M,3267,
+Baby Weight,19.3K,1.73M,588,14.8M,140.0,13K,605,7.33M,236,
+Bear Grillz,1.07M,156M,2788,57.3M,296,233K,20.6K,49.3M,1673,
+Kompany,585K,148M,3179,47M,369,264K,8455,41.7M,6072,
+Ben Böhmer,2.4M,1.39B,12.6K,142M,1311,5.59M,157K,514M,6433,
+BIJOU,328K,149M,5724,112M,488,556K,21.5K,102M,3696,
+Black V Neck,142K,122M,5360,108M,664,1.19M,230K,576M,4899,
+Blossom,186K,25.1M,1459,28.9M,87,40.8K,1228,5.07M,557,
+Blunts & Blondes,444K,76.1M,1559,29.2M,132,97.6K,5396,13.7M,383,
+BOMBAYS,17.5K,7.18M,654,12.8M,163,30.7K,550,7.63M,247,
+Boston Bun,213K,173M,5664,145M,600,1.21M,8311,41.2M,1932,
+Brainchild,6519,3.11M,271,849K,56,46.5K,124,124K,85,
+Brandon Elliot,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""a[href*=\""/artist/\""]"").first
+"
+Burko,31.2K,16.5M,1166,21.7M,204,61.9K,827,3.17M,478,
+Candl,10.6K,212K,72,593K,24,430,64,31.8K,41,
+Carl Craig,777K,121M,5922,50.4M,971,2.84M,4513,9.44M,6642,
+Carlo Key,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""a[href*=\""/artist/\""]"").first
+"
+Cat Dealers,2.86M,1.62B,18.6K,331M,1275,8.01M,704K,1.45B,5773,
+Cats & Boots Records,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""a[href*=\""/artist/\""]"").first
+"
+Chapter & Verse,166K,98.8M,5915,144M,502,775K,8485,81.6M,7010,
+Charlotte de Witte,12.7M,633M,9364,115M,1226,4.36M,140K,1.68B,7883,
+Chocolate Sushi,1133,22.6K,23,374K,1,60,10,14.6K,5,
