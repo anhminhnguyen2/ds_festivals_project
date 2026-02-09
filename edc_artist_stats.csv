@@ -1054,14 +1054,14 @@ Skream,1.79M,453M,11.4K,150M,1867.0,8.26M,106K,341M,5386,
 Slugg,27.8K,2.95M,455,4.49M,74.0,41.8K,431,1.32M,494,
 Classmatic,173K,25.2M,1930,14.5M,361.0,404K,5257,24.8M,2688,
 southstar,444K,900M,10.3K,272M,1462.0,3.2M,501K,8.07B,415,
-Space 92,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Space 92,479K,219M,,55.7M,575,1.14M,23.5K,87.1M,6987,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
 Steller,107K,12.4M,638,7.48M,60.0,15.8K,3120,7.61M,102,
 Stoley,7674,1.67M,394,6.9M,32.0,13.1K,138,383K,123,
 Synnhaven,342,42.6K,41,285K,4.0,175,7,5304,,
-Tchami,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Tchami,2.7M,1.27B,21.3K,300M,1839,6.7M,122K,584M,14.1K,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
@@ -1088,7 +1088,6 @@ X CLUB.,191K,36.9M,1848,38.7M,397,282K,5791,35.4M,612,
 Xandra,780,539K,21,21.5K,19,1765,133,12.8K,6,
 YDG,260K,228M,3322,53.7M,856,1.07M,166K,582M,1385,
 Yoji Biomehanika,55.9K,6.21M,376,3.46M,170,14.2K,344,186K,515,
-Decoder,,,,,,,,,,
-4B,,,,,,,,,,
-Baron,,,,,,,,,,
-Malaa,,,,,,,,,,
+Decoder,32.3K,113K,,147K,27,,,22.8K,84,
+4B,706K,201M,,70.1M,424,604K,1.21M,363M,6272,
+Malaa,1.22M,3.1B,10.8K,148M,876,3.17M,63.5K,682M,10.5K,
