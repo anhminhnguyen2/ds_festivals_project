@@ -1216,26 +1216,61 @@ Call log:
 "
 Onlynumbers,187K,69.8M,1322,7.1M,166.0,255K,3501,11.9M,282,
 Oppidan,217K,51M,2117,48.1M,328.0,234K,3880,22.3M,1969,
-Pablo Bozzi,120K,5.33M,379,2.51M,240,65.2K,457,856K,176,
-Papa Lu,17.7K,204K,105,2.46M,13,1681,70,176K,38,
+Pablo Bozzi,120K,5.33M,379,2.51M,240.0,65.2K,457,856K,176,
+Papa Lu,17.7K,204K,105,2.46M,13.0,1681,70,176K,38,
 DJ Pinke,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
-Sam Binga,130K,25.5M,1647,12M,358,187K,1183,2.61M,1159,
-Prospa,359K,256M,7577,160M,745,1.95M,23.5K,130M,4635,
-Josh Baker,808K,145M,3258,84.6M,338,385K,69.5K,308M,2233,
-Pryda,323K,221M,4079,51.5M,714,7.12M,3511,30.5M,13.1K,
-RaeCola,25.8K,367K,201,2.17M,14,3229,166,584K,97,
-RayRay,467K,55.1M,2915,72.3M,382,269K,8511,38.3M,2290,
-Recess,10.7K,2.93M,293,2.04M,29,3408,127,106K,N/A,
-Restricted,1.54M,544M,6230,117M,1029,1.96M,994K,10.1B,1732,
-Reza,4295,2.94M,634,12.2M,173,117K,616,442K,2070,
-Ricky Retro,587K,54.8M,1455,69M,305,149K,13K,109M,169,
-RL Grime,3.08M,1.75B,17.5K,218M,1067,5.04M,93.4K,455M,13.6K,
-Rollz Royce,7654,352K,37,95.9K,7,229,26,67.5K,N/A,
-Rooler,519K,540M,4661,22.6M,465,995K,27.7K,187M,4526,
-Roxy Ferrari,48K,34.9K,9,110K,5,71,6,53.4K,N/A,
-Rudimental,8.15M,6.63B,41.3K,813M,2652,49.4M,576K,931M,7001,
-RZRKT,68.1K,12M,551,8.1M,77,19K,862,3.04M,869,
-Vastive,95.5K,31.9M,852,13.9M,184,48.5K,10.2K,19.3M,1604,
+Sam Binga,130K,25.5M,1647,12M,358.0,187K,1183,2.61M,1159,
+Prospa,359K,256M,7577,160M,745.0,1.95M,23.5K,130M,4635,
+Josh Baker,808K,145M,3258,84.6M,338.0,385K,69.5K,308M,2233,
+Pryda,323K,221M,4079,51.5M,714.0,7.12M,3511,30.5M,13.1K,
+RaeCola,25.8K,367K,201,2.17M,14.0,3229,166,584K,97,
+RayRay,467K,55.1M,2915,72.3M,382.0,269K,8511,38.3M,2290,
+Recess,10.7K,2.93M,293,2.04M,29.0,3408,127,106K,,
+Restricted,1.54M,544M,6230,117M,1029.0,1.96M,994K,10.1B,1732,
+Reza,4295,2.94M,634,12.2M,173.0,117K,616,442K,2070,
+Ricky Retro,587K,54.8M,1455,69M,305.0,149K,13K,109M,169,
+RL Grime,3.08M,1.75B,17.5K,218M,1067.0,5.04M,93.4K,455M,13.6K,
+Rollz Royce,7654,352K,37,95.9K,7.0,229,26,67.5K,,
+Rooler,519K,540M,4661,22.6M,465.0,995K,27.7K,187M,4526,
+Roxy Ferrari,48K,34.9K,9,110K,5.0,71,6,53.4K,,
+Rudimental,8.15M,6.63B,41.3K,813M,2652.0,49.4M,576K,931M,7001,
+RZRKT,68.1K,12M,551,8.1M,77.0,19K,862,3.04M,869,
+Vastive,95.5K,31.9M,852,13.9M,184.0,48.5K,10.2K,19.3M,1604,
+Sabrosura Boyz,,,,,,,,,,"Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to ""https://songstats.com/welcome"", waiting until ""load""
+"
+Sam Blacky,,,,,,,,,,Timeout 30000ms exceeded.
+Samplifire,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""a[href*=\""/artist/\""]"").first
+"
+Sarah de Warren,N/A,N/A,Collaborators,N/A,N/A,N/A,N/A,N/A,N/A,
+Sarz,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""a[href*=\""/artist/\""]"").first
+"
+Selective Response,13.4K,630K,114,695K,61,8435,131,68.1K,106,
+Shades,131K,19.9M,675,4.31M,139,75.6K,1560,3.93M,497,
+Showtek,8.39M,3.17B,27.9K,317M,1290,23.2M,146K,663M,24.9K,
+Sihk,51K,19.1M,1000,19.4M,235,37.3K,893,4.48M,502,
+Silcrow,12.1K,7.33M,308,3.24M,88,48.9K,236,792K,161,
+Silver Panda,131K,175M,4102,80.2M,470,1.11M,87.4K,139M,2831,
+Simula,201K,213M,3513,21.1M,584,588K,18.7K,99.3M,1462,
+Skepta,10.4M,8.45B,46.5K,641M,3528,27.8M,1.69M,7.58B,3629,
+Skream,1.79M,453M,11.4K,150M,1867,8.26M,106K,341M,5386,
+Slugg,27.8K,2.95M,455,4.49M,74,41.8K,431,1.32M,494,
+Classmatic,173K,25.2M,1930,14.5M,361,404K,5257,24.8M,2688,
+southstar,444K,900M,10.3K,272M,1462,3.2M,501K,8.07B,415,
+Space 92&Popof,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""a[href*=\""/artist/\""]"").first
+"
+Stedicam,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""a[href*=\""/artist/\""]"").first
+"
+Steller,107K,12.4M,638,7.48M,60,15.8K,3120,7.61M,102,
