@@ -1,10 +1,13 @@
 Artist,Followers,Streams,Playlists,Playlist Reach,Charts,Shazams,Videos,Views,DJ Supports,Error
-1080p,6,5986,1,641,,17,45,9800,,
-A Shade of Black,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+1080p,6,5986,1,641,,17,45,9800,0,
+A Shade of Black,,"15.1K
+",,"11K
+","7
+",,,,0,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
-Aaron K,1,2163,,Playlist Reach,1.0,4,2,,,
+Aaron K,1,2163,,Playlist Reach,1.0,4,2,,0,
 Abana,7710,468K,175,4.22M,60.0,15.3K,110,1.89M,93,
 D. Zeledon,5776,69.6K,25,218K,18.0,764,31,9672,58,
 ACRAZE,828K,1.63B,23.7K,604M,2744.0,12.6M,2.89M,22.2B,7698,
@@ -28,15 +31,7 @@ Andrew Bayer,536K,162M,3702,56.1M,784.0,1.97M,33.4K,258M,10.3K,
 Andrew Rayel,2.06M,469M,6704,115M,763.0,2.76M,53.2K,103M,14.8K,
 Andruss,145K,124M,4762,81.7M,742.0,1.57M,31.7K,129M,5255,
 Angerfist,4.74M,955M,4856,23.5M,532.0,1.41M,78.3K,204M,7874,
-Arboles Pintados,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Argy,1.72M,686M,9390,151M,1436.0,9.37M,487K,1.2B,11K,
-arman.,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Armin van Buuren,35.2M,14.4B,57K,656M,3203.0,80.9M,2.49M,6.99N,79.4K,
 ARMNHMR,553K,220M,3127,56M,388.0,276K,8682,40.5M,1309,
 Assembly,676,15.6K,,Playlist Reach,2.0,54,1,1938,,
@@ -45,10 +40,6 @@ Atmozfears,765K,363M,5110,46.6M,341.0,677K,4473,13.6M,7478,
 Audiofreq,298K,58M,2105,13.4M,206.0,161K,3049,2.36M,4040,
 Azzecca,106K,37M,2681,62M,298.0,421K,5790,21.3M,1516,
 Baggi,155K,104M,1467,13.1M,137.0,1.29M,60.6K,42.4M,1593,
-Matt Denuzzo,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 BEC,154K,9.25M,852,15.3M,222.0,48.6K,647,16.2M,1091,
 Ben Hemsley,411K,146M,3665,59.1M,790.0,801K,19.9K,80M,2833,
 Ben Sterling,231K,17.1M,2037,20.6M,314.0,209K,1061,6.43M,2572,
@@ -65,42 +56,38 @@ Bowie Jane,94.8K,746K,43,364K,12.0,43.1K,87,181K,5,
 Brandi Cyrus,1.27M,2.17M,107,1.97M,49.0,1140,402,951K,,
 Brina Knauss,315K,4.69M,664,10.1M,128.0,35.2K,499,7.3M,293,
 Bryan Kearney,672K,137M,3248,20.7M,596.0,964K,22.6K,33.3M,12.7K,
-Bryan Matthew,5,53,,Playlist Reach,,,1,,,
+Bryan Matthew,404K,53,60.7K,Playlist Reach,1,,1,388K,0,
 Bunny,12.9K,15.1M,253,12.1M,28.0,7527,455,5.68M,52,
 Calussa,66.9K,58.4M,3822,62.4M,344.0,620K,11.6K,42.6M,2300,
-Camden Cox,,,,,,,,,,
+Camden Cox,88.3K,278M,,196M,968,2.08M,30.7K,227M,3700,
 Carl Cox,8.78M,339M,10.1K,130M,1117.0,2.35M,32K,92.5M,8394,
 Nicole Moudaber,1.91M,78.9M,4467,69.2M,715.0,1.01M,10.4K,29.6M,9946,
 Caspa,798K,108M,1449,12.5M,216.0,699K,6711,124M,1247,
 Cassian,700K,292M,8860,148M,872.0,2.63M,65.6K,214M,8376,
 Castor & Pollux,62.2K,9.98M,1166,31.9M,61.0,35.8K,664,2.05M,863,
-Cat & Maomi,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Cat & Maomi,,13.6K,,191K,3,,,37.5K,3,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
 CELO,13.4K,2.36M,252,1.93M,42.0,5282,368,684K,351,
-CHAMP FRESNEL,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Chef Boyarbeatz,69.3K,4.39M,431,3.69M,49.0,12.2K,641,1.09M,209,
 Chelina Manuhutu,517K,4.41M,683,9.54M,119.0,43.7K,858,2.94M,536,
 Chibs,153K,32.9M,852,2.97M,117.0,34K,2015,17.4M,586,
 Clawz,21.1K,426K,67,974K,5.0,955,41,240K,3,
 DØMINA,212K,3.2M,170,4.77M,31.0,15.5K,1502,4.56M,31,
-Codeko,,,,,,,,,,
+Codeko,161K,187M,,90.6M,433,318K,15.2K,22.7M,1132,
 Crankdat,2.87M,499M,5609,108M,592.0,934K,37.8K,234M,8934,
 Creeds,457K,819M,9919,214M,1639.0,5.23M,1.17M,3.63B,1863,
 Helen Ka,7848,20.8M,388,1.28M,28.0,50.1K,780,1.19M,33,
 Cristoph,340K,417M,10.2K,165M,1153.0,3.68M,24.1K,53.4M,12.8K,
 Crystal Skies,173K,142M,2870,35.3M,428.0,252K,9382,16.6M,817,
 Culture Shock,493K,294M,4348,49.2M,755.0,1.23M,13.5K,29.6M,5474,
-D!CED,1914,9896,8,150K,,9,1,,,
+D!CED,1914,9896,8,150K,0,9,1,,,
 D-Sturb,494K,407M,4478,33.9M,390.0,518K,6959,33.8M,7258,
 Da Tweekaz,1.89M,1.45B,10.4K,71M,932.0,2.73M,322K,932M,11.8K,
 Dabin,883K,775M,7395,104M,927.0,1.22M,45.6K,140M,2508,
 Damon Sharpe,303K,148M,4870,151M,378.0,277K,5480,105M,1173,
-David Guetta,,,,,,,,,,
+David Guetta,176M,73.6M,169K,1.77B,6579,362M,17.1M,49.2B,76K,
 Daxson,358K,44.9M,975,8.79M,388.0,239K,36.3K,48.7M,5357,
 Dead X,24.3K,9.82M,519,3.37M,64.0,8610,377,1.06M,24,
 Levenkhan,41.5K,34.7M,1133,7.64M,162.0,71K,4588,17.6M,195,
@@ -120,10 +107,6 @@ Dimension,887K,832M,7787,127M,928.0,3.43M,77.2K,336M,7762,
 Diplo,33M,30.3B,134K,1.67B,5743.0,143M,7.38M,16.3B,36.3K,
 Disco Fries,165K,213M,7399,163M,530.0,1.21M,31.4K,164M,3247,
 Discrete,16.1K,357K,63,89.7K,35.0,12.7K,89,3045,47,
-DJ 30Rack,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 DJ Hazel,4161,1.47M,5,4107,3.0,6031,143,714K,,
 DJ Heartstring,384K,170M,3112,57.4M,594.0,409K,13.5K,116M,629,
 DJ Minx,78.2K,6.81M,1328,26.5M,333.0,70.1K,539,1.62M,1284,
@@ -142,11 +125,11 @@ Excision,6.3M,1.45B,8727,89.9M,1170.0,3.37M,106K,495M,14.5K,
 Fallen,2303,21.7M,599,18.8M,42.0,26.4K,1240,8.03M,23,
 Fury,62.9K,3.92M,89,251K,14.0,17K,458,543K,1,
 Nightstalker,163K,8.59M,136,742K,28.0,53.6K,215,253K,,
-Dknow (MC Dino),,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Dknow (MC Dino),996K,27.4M,,4M,149,161K,,874K,79,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
-Fallen&Dknow (MC Dino),,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Fallen,,94.7K,,258K,3,,,,22,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
@@ -161,43 +144,22 @@ Fredy Lane,14.3K,1.22M,314,11.1M,15.0,1895,610,7.94M,80,
 Friendly Fire,2611,1.93M,218,2.85M,16.0,3755,74,117K,193,
 FrostTop,45.5K,17.9M,955,16.8M,169.0,27.4K,781,4.63M,951,
 RemK,62.7K,13.1M,696,19.8M,135.0,24K,878,7.69M,817,
-fun2bjane,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
-mad gavs,,,,,,,,,,Navigation Failed
 GEO,12.7K,5.16M,180,1.03M,36.0,19.4K,2932,2.92M,45,
 Ghastly,1.13M,264M,4365,85.4M,386.0,399K,8011,22.8M,2660,
 Ghost in Real Life,32.4K,3.9M,419,8.48M,14.0,6428,223,506K,140,
-Giuseppe Ottaviani,,,,,,,,,,
+Giuseppe Ottaviani,1.45M,1.13B,,66.3M,764,2.29M,55.5K,,24.5K,
 GRAVEDGR,289K,158M,3816,58.1M,433.0,402K,1.86M,2.02B,1400,
 Gryffin,3.05M,5.2B,32.8K,623M,1861.0,13.2M,1.11M,2.25B,4593,
 HAAi,324K,83.4M,3956,78.8M,475.0,355K,167K,112M,601,
 HALIENE,715K,483M,8726,114M,1008.0,1.48M,23.3K,51.6M,7505,
 Hamdi,482K,117M,3664,74.9M,762.0,702K,28.5K,175M,3383,
 Hannah Laing,1.02M,429M,6121,194M,677.0,1.32M,66K,318M,2913,
-Harmson,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
-Harristone,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Hedex,1.02M,330M,4173,73.3M,580.0,995K,53.7K,291M,1999,
-Heidi Lawden,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Heidi Lawden,,140K,,44.6K,20,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
 Highlnd,15K,33.3M,1070,26.4M,98.0,45.9K,2298,7.07M,88,
-Hint of Lavender,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
-Kayzo&Space Laces&Must Die!,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Hixxy,197K,67.5M,1443,9.22M,196.0,112K,19.5K,78.3M,774,
 HOL!,344K,81.7M,1182,19.3M,209.0,213K,13.1K,62.1M,2613,
 HoneyLuv,167K,72.3M,3498,77.7M,478.0,1M,269K,61.4M,2666,
@@ -206,7 +168,6 @@ Illenium,7.29M,8.9B,36.7K,652M,2531.0,16.3M,889K,2.01B,11.7K,
 Indira Paganotto,2.27M,66.6M,1823,43.6M,503.0,262K,9393,56.4M,903,
 Infected Mushroom,3.97M,1.09B,5621,34.9M,694.0,2.58M,51.1K,148M,1901,
 Interplanetary Criminal,497K,644M,12.8K,386M,2318.0,4.74M,1.16M,7.87B,3374,
-[IVY],,,,,,,,,,
 J. Worra,268K,242M,6568,137M,521.0,519K,6679,38.8M,2868,
 Jackie Hollander,70.5K,12.8M,1497,56M,96.0,44.6K,973,5.54M,520,
 James Kennedy,1.58M,9.91M,461,10.8M,44.0,19.5K,939,15.3M,57,
@@ -228,7 +189,7 @@ K.Gianni,319K,24.4K,7,53K,2.0,528,4,,11,
 Kai Wachi,1.02M,385M,3794,34.4M,384.0,445K,20.1K,100M,3104,
 Kallaghan,18.6K,2.64M,682,23.7M,43.0,4120,772,19.6M,5,
 Kasablanca,452K,424M,4597,94.2M,724.0,768K,102K,109M,3799,
-Kaskade,,,,,,,,,,
+Kaskade,8.72B,3.87B,33.5K,481M,2149,21.1M,728K,1.45B,18.5K,
 Kassel,154,20.4K,15,29.3K,1.0,162,37,23K,1,
 Kaysin,20K,4.67M,1187,19.8M,87.0,32.6K,367,8.28M,852,
 Kayzo,1.71M,567M,6964,95.6M,600.0,771K,24.5K,75M,6158,
@@ -246,7 +207,13 @@ Kozmoz,62.2K,20.4M,624,8.05M,85.0,15.7K,549,1.22M,345,
 Kreation,6399,5.69M,342,1.96M,77.0,5028,214,4.57M,21,
 Darksiderz,183K,3.46M,406,5.32M,51.0,4151,178,913K,90,
 Ky William,35.4K,6.95M,1177,18.8M,162.0,54.7K,1024,4.15M,1201,
-Kyle Walker,,,,,,,,,,
+Kyle Walker,"126K
+","31.3M
+",,"58.8M
+","436
+","412K
+","343K
+",1.98B,2239,
 Lady Faith,445K,11.3M,623,5.77M,76.0,24.1K,864,31.5M,466,
 LALA,7833,474K,53,607K,6.0,2465,704,3.82M,,
 Lavish Life,115K,43.7M,465,10.9M,69.0,27K,6838,41.7M,37,
@@ -264,7 +231,15 @@ LOUIEJAYXX,64.5K,14.4M,680,8.17M,138.0,30.8K,755,8.43M,1035,
 LSDREAM,703K,194M,2463,25.5M,255.0,341K,52.6K,95.8M,1507,
 Lucky Lou,3404,4.23M,322,5.04M,177.0,11.6K,392,679K,87,
 Luttrell,311K,128M,2887,48.2M,733.0,642K,7265,26.2M,2659,
-Maddix,,,,,,,,,,
+Maddix,"1.84M
+","1.06B
+","13.8K
+","200M
+","1014
+","4.68M
+","411K
+","2.19B
+",13.9K,
 Majestic,408K,1.5B,20.3K,539M,1938.0,6.43M,509K,2.5B,4421,
 Malcolm Zeller,15.4K,10.5M,967,32.2M,93.0,28K,40.9K,125M,277,
 Malóne,94K,106M,4558,77.2M,411.0,485K,3821,20.3M,2369,
@@ -283,10 +258,6 @@ Matroda,771K,503M,12K,174M,760.0,2.3M,28.5K,176M,12.1K,
 San Pacho,246K,212M,5222,88.7M,609.0,1.28M,85.2K,199M,5052,
 Matt Faulk,56.1K,6.3M,491,12.7M,38.0,34.8K,523,3.65M,385,
 Matt Sassari,643K,1.24B,15.5K,292M,1251.0,3.49M,227K,543M,12K,
-Matt Suave,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Mau P,1.35M,776M,14.6K,305M,1122.0,4.13M,579K,1.25B,11.5K,
 Max Styler,439K,418M,11.9K,194M,906.0,3.47M,31.5K,156M,11K,
 MC4D,653K,84.8M,1642,51M,417.0,221K,34.6K,331M,107,
@@ -301,7 +272,7 @@ MK,2.43M,3.09B,37.9K,554M,2635.0,22.7M,405K,2.03B,16.5K,
 Monika Santucci,27.6K,112M,2087,31.7M,473.0,158K,6289,12.3M,838,
 Myles O'Neal,1.03M,2.51M,594,19.3M,18.0,8024,775,23.5M,232,
 Naz,1028,462K,20,39.4K,45.0,42.4K,449,173K,70,
-Neon Black,3,114,,Playlist Reach,,,3,,,
+Neon Black,3,114,,,,,3,,,
 Neon Deluz,8869,75,1,62,2.0,37,2,,1,
 NGHTMRE,2.9M,1.46B,16.9K,265M,986.0,3.49M,89K,305M,11.6K,
 Nick Garcia,7157,668K,167,2.79M,34.0,3084,75,13K,133,
@@ -310,44 +281,22 @@ Ninajirachi,479K,111M,2783,92.7M,482.0,393K,3014,14.6M,750,
 Noizu,483K,494M,11.9K,190M,827.0,2.56M,351K,1.4B,8210,
 Westend,344K,311M,9806,155M,710.0,1.96M,26.6K,140M,8690,
 SOREN,9244,2.18M,341,4.6M,36.0,6275,2634,23.8M,139,
-NOYZNTHEHOOD,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Odd Mob,583K,600M,11.4K,198M,683.0,2.11M,447K,290M,9574,
-Odd Mob&Omnom,,,,,,,,,,
 Oden & Fatzo,277K,374M,7940,123M,845.0,1.36M,45.4K,254M,2842,
 OG Nixin,139K,22M,588,7.27M,45.0,21.2K,1542,3.27M,392,
 Omar Santana,39K,19.1M,359,2.64M,75.0,25.2K,2484,13.3M,62,
-Orjan Nilsen&Mark Sixma,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Öwnboss,475K,1.18B,20.1K,409M,1686.0,9.36M,852K,6.62B,7074,
 Panteros666,233K,28.4M,1397,31.6M,386.0,300K,2446,13.7M,533,
-PARTY DADS,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Paul Oakenfold,3.62M,930M,13.7K,179M,1510.0,8.51M,1.22M,6.24B,10.4K,
 Paul van Dyk,8.8M,1.86B,10.3K,178M,1602.0,6.54M,120K,319M,18.1K,
 Peggy Gou,7.21M,1.45B,24.2K,565M,3160.0,17.4M,1.89M,6.98B,5823,
 Pickle,262K,862M,4906,104M,793.0,1.11M,40K,68.2M,4775,
-Piilot,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 PLS&TY,638K,232M,5633,107M,336.0,423K,31.6K,439M,849,
 Pocket,54.2K,7.71M,1043,30M,94.0,15K,321,1.7M,185,
 Polar Bears,66.2K,36.8M,1701,39.3M,92.0,70.1K,1393,19.4M,394,
 Prunk,65.4K,35.6M,2626,27.6M,313.0,231K,2673,23.6M,2411,
-prv. d,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Purple Disco Machine,3.2M,4.32B,37K,518M,2816.0,52.8M,458K,1.53B,21K,
 Pyke,19.1K,3.66M,164,3.69M,18.0,3078,337,761K,118,
-Quality G,,,,,,,,,,Navigation Failed
 Ranger Trucco,94.1K,24.7M,2565,38.2M,350.0,149K,7802,75.5M,1618,
 Rated R,3522,1.44M,98,714K,35.0,36.6K,282,164K,38,
 Rayben,2.36M,24.3M,561,18.4M,32.0,58.3K,12.7K,41.6M,49,
@@ -362,7 +311,7 @@ Rommii,30.2K,18.1M,986,38.8M,114.0,43K,1705,13M,49,
 Sally C,88.8K,7.56M,1290,17.5M,199.0,225K,772,2.05M,843,
 Matisa,44.3K,1.87M,371,9.72M,108.0,23.6K,211,44.8K,194,
 Sanzu,6090,1.26M,73,319K,4.0,896,38,18.6K,20,
-Sara Landry,,,,,,,,,,
+Sara Landry,3.42M,210M,,71.1M,468,575K,45.9K,274M,1314,
 Seven Lions,6.16M,1.53B,13.2K,180M,1377.0,4.19M,73.6K,268M,8606,
 Shiba San,706K,144M,5369,70.4M,559.0,900K,7183,29M,5964,
 Shlømo,804K,56.8M,2842,41.6M,404.0,196K,9357,50.2M,933,
@@ -372,10 +321,6 @@ simfonik,2,1769,,Playlist Reach,,11,3,372,,
 Skellytn,35.2K,3.33M,420,10.7M,80.0,5466,743,7.88M,249,
 Skin On Skin,327K,91.3M,2665,50.1M,565.0,328K,4689,27M,416,
 SLANDER,5.05M,3.03B,17.9K,278M,1843.0,7.88M,4.41M,47.2B,9175,
-SLANDER presents Before Dawn,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Sofi Tukker,3.49M,2.84B,33.8K,569M,3105.0,28.6M,1.01M,1.81B,8454,
 Sosa,1551,6.09M,332,14.5M,27.0,21.6K,712,451K,5,
 Soul Purpose,3496,2.23M,249,4.21M,43.0,54.8K,256,379K,258,
@@ -383,7 +328,7 @@ Sound Rush,519K,456M,5767,42M,524.0,701K,58.3K,356M,6601,
 Special Guest,1868,48.3K,5,32.6K,2.0,288,18,2477,2,
 STAR SEED,84.2K,13.5M,1076,19.6M,138.0,31.7K,2627,8.06M,287,
 Staysick,32.3K,5.87M,433,7.55M,71.0,20.6K,516,35M,202,
-Steve Aoki,,,,,,,,,,
+Steve Aoki,47.4M,11.2B,73.2K,,62.3M,3.25M,12.4B,31.8K,,
 Sub Focus,3.91M,1.84B,15.9K,229M,1439.0,11.6M,146K,629M,15.7K,
 Sub Zero Project,877K,820M,7038,72.5M,460.0,1.08M,35K,180M,10.1K,
 Súbelo Neo,234K,308M,3448,77M,503.0,719K,171K,818M,61,
@@ -398,17 +343,13 @@ Taylor Jaymin,13.7K,289K,133,2.69M,9.0,1988,40,23.8K,70,
 Taylor Kade,78.7K,8.6M,569,19.5M,43.0,10.9K,810,9.15M,209,
 Taylor Torrence,51.1K,16.4M,1023,16M,236.0,62.3K,1548,6.77M,1500,
 Teko,5928,4.35M,92,368K,14.0,9778,138,56.8K,,
-Tha Funk Junkie,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Thomas Garcia,48K,9.63M,1320,18.6M,113.0,55.4K,1014,4.14M,559,
 Tiësto,59.5M,28B,128K,1.5B,5782.0,171M,16.9M,40.4B,85.1K,
 Tim Clark,48.5K,1.49M,19,22.1K,10.0,1970,1018,32.7K,,
 Timmy Trumpet,11.2M,5.48B,37.7K,436M,2343.0,23.8M,1.27M,6.49B,16.8K,
 TOBEHONEST,63.5K,48.9M,2429,28.8M,255.0,410K,4049,21.7M,1767,
 TONG,275,357K,74,915K,7.0,11.8K,48,32.9K,287,
-Tripps,29,1352,,Playlist Reach,,8,1,,,
+Tripps,29,1352,,,,8,1,,,
 Trouble,577K,633M,4331,76.1M,401.0,3.71M,148K,52.6M,10,
 TroyBoi,2.05M,3.89B,24.1K,368M,2084.0,15M,2.26M,5.67B,3373,
 Trym,1.41M,69.7M,2374,24.1M,469.0,310K,5769,30.5M,413,
@@ -425,56 +366,48 @@ Wade,3.07M,261M,6977,107M,701.0,2.34M,60.2K,468M,7287,
 Warface,1.73M,467M,4742,28.5M,335.0,768K,18.9K,121M,7902,
 Water Spirit,56.8K,6.77M,441,7.43M,113.0,8502,1350,32.7M,149,
 Wes Pierce,5363,1.12M,160,2.7M,9.0,1027,63,67.9K,26,
-Who's John,,,,,,,,,,
+Who's John,12.5K,2.05M,,4.33M,14,,,181K,80,
 Wilkinson,1.26M,1.42B,10.3K,118M,921.0,5.84M,83.9K,330M,6722,
 Will Clarke,393K,134M,5915,110M,822.0,842K,4954,40.9M,6744,
 Wooli,963K,449M,5016,67.6M,663.0,878K,127K,453M,9604,
-Sub Focus&Dimension&Culture Shock&1991,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Wuki,1.41M,526M,10.2K,226M,1187.0,2.72M,1.88M,3.13B,6591,
 X-Coast,78K,29.6M,2089,12.5M,494.0,326K,70.5K,386M,571,
 XENAA,12.7K,18.3K,5,45.9K,6.0,349,140,104K,17,
 Yosuf,357K,337M,3346,23.5M,292.0,164K,62.7K,1.12B,46,
 Yotto,780K,540M,12.1K,160M,1260.0,3.89M,42.8K,143M,14.7K,
 Zedd,46.4M,17.9B,75K,1.03B,2748.0,101M,7.27M,5.62B,23.9K,
-Zen Freeman,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Zen Freeman,140K,16.8M,,37.8M,275,180K,,4.15M,632,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
 Zevy,84.4K,14.1M,385,7.77M,31.0,5685,747,2.84M,9,
-Zingara,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Zingara,657K,60.6M,,10.4M,99,65.4K,17.4K,41M,199,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
-ZOF,,,,,,,,,,"Page.goto: Timeout 30000ms exceeded.
+ZOF,16.2K,761K,,4.97M,40,,,352K,119,"Page.goto: Timeout 30000ms exceeded.
 Call log:
   - navigating to ""https://songstats.com/welcome"", waiting until ""load""
 "
-Zomboy,,,,,,,,,,"Page.goto: net::ERR_NETWORK_CHANGED at https://songstats.com/welcome
+Zomboy,4.18M,808M,,67.8M,659,2.57M,31K,96.6M,13.9K,"Page.goto: net::ERR_NETWORK_CHANGED at https://songstats.com/welcome
 Call log:
   - navigating to ""https://songstats.com/welcome"", waiting until ""load""
 "
-ZUEZEU,,,,,,,,,,"Page.goto: Navigation to ""https://songstats.com/welcome"" is interrupted by another navigation to ""chrome-error://chromewebdata/""
+ZUEZEU,215K,9.67M,,,52,27.7K,,5.82M,207,"Page.goto: Navigation to ""https://songstats.com/welcome"" is interrupted by another navigation to ""chrome-error://chromewebdata/""
 Call log:
   - navigating to ""https://songstats.com/welcome"", waiting until ""load""
 "
-12th Planet,,,,,,,,,,"Page.goto: Navigation to ""https://songstats.com/welcome"" is interrupted by another navigation to ""https://songstats.com/welcome""
+12th Planet,1.48M,156M,,30.7M,216,335K,,56.7M,2368,"Page.goto: Navigation to ""https://songstats.com/welcome"" is interrupted by another navigation to ""https://songstats.com/welcome""
 Call log:
   - navigating to ""https://songstats.com/welcome"", waiting until ""load""
 "
-30 Year Dance Party,,,,,,,,,,"Page.goto: Navigation to ""https://songstats.com/welcome"" is interrupted by another navigation to ""https://songstats.com/welcome""
-Call log:
-  - navigating to ""https://songstats.com/welcome"", waiting until ""load""
-"
-8Kays,,,,,,,,,,"Page.goto: Navigation to ""https://songstats.com/welcome"" is interrupted by another navigation to ""https://songstats.com/welcome""
+8Kays,255K,34.6M,,24.3M,467,404K,,7.42M,2829,"Page.goto: Navigation to ""https://songstats.com/welcome"" is interrupted by another navigation to ""https://songstats.com/welcome""
 Call log:
   - navigating to ""https://songstats.com/welcome"", waiting until ""load""
 "
 999999999,1.15M,53.2M,2061,12.7M,310.0,147K,7726,17.9M,306,
 A Hundred Drums,116K,5.33M,473,6.33M,38.0,7135,528,651K,52,
-Above & Beyond,,,,,,,,,,
+Above & Beyond,7.8M,1.76B,14.5K,202M,1910,10.7M,3.41M,10.6B,37.2K,
 Afrojack,18.8M,14.3B,73.9K,909M,3544.0,79.1M,1.72M,6.68B,38.6K,
 AK SPORTS,39.1K,1.83M,460,7.24M,170.0,10.3K,235,292K,83,
 Alec Monopoly,1.47M,3.84M,480,10.8M,45.0,4521,2491,41.8M,195,
@@ -489,10 +422,6 @@ atDusk,129K,1.32M,256,4.53M,151.0,6686,145,189K,255,
 BAKR,1.87M,203M,524,2.01M,409.0,5.65M,23.8K,42.1M,,
 BARELY ALIVE,1.25M,283M,3777,46.3M,390.0,660K,15.4K,62.7M,7713,
 Ben Nicky,3.07M,288M,5973,84.1M,979.0,1.34M,121K,445M,6967,
-Ben Nicky&Sub Zero Project,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Ben UFO,1741,19.9K,2,4127,,,,,,
 Bensley,99.8K,81.4M,1868,17.2M,289.0,268K,4947,9.88M,883,
 Justin Hawkes,105K,88.6M,2144,37.2M,250.0,259K,3336,42.3M,1356,
@@ -533,10 +462,6 @@ Darren Styles,823K,976M,11.5K,114M,1019.0,2.93M,77.8K,353M,8146,
 David Morales,1028,98,,Playlist Reach,,,1,,,
 Demigod,5522,1.27M,64,1.09M,8.0,2255,134,25.3K,11,
 Dennis Ferrer,936K,388M,9580,95.6M,894.0,9.09M,32.9K,197M,11.4K,
-Dionysus&Yosuf,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Dombresky,874K,308M,10.7K,161M,897.0,2.15M,102K,964M,8307,
 Disco Lines,1.93M,1.2B,14.5K,471M,1513.0,5.16M,1.7M,7.46B,3034,
 Elevate Two,33,17.1K,18,247K,2.0,21,23,43.7K,,
@@ -556,7 +481,7 @@ Dion Timmer,695K,352M,4273,41.7M,571.0,908K,51K,253M,3367,
 Richter,38.7K,9.93M,544,16.3M,216.0,34.8K,951,3.95M,188,
 Ferreck Dawn,589K,464M,13.4K,194M,843.0,3.65M,15.3K,74.4M,11.9K,
 FETISH,148K,90.4M,2421,34.3M,730.0,1.4M,13.4M,9.69B,550,
-Declan James&Decoder,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Declan James,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
@@ -576,17 +501,9 @@ Call log:
 Tweekacore,45.7K,81.8M,1872,13.3M,171.0,104K,1790,8.14M,1105,
 Gareth Emery,3.99M,1.22B,8354,101M,1070.0,5.42M,265K,306M,17K,
 Gentlemens Club,356K,78M,2644,22.9M,309.0,127K,2555,99.5M,1327,
-GlittrCat,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Goodboys,376K,4.08B,42.7K,772M,2863.0,37.3M,6.04M,18.1B,9639,
 Grafix,249K,400M,4821,47.7M,748.0,1.13M,13.7K,46.3M,4931,
 GRiZ,3.19M,1.06B,8339,102M,789.0,2.42M,226K,2.3B,4139,
-GRiZ&Subtronics,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 HANA,535K,137M,4108,102M,665.0,484K,8826,60.9M,1582,
 Hannah Wants,1.43M,285M,7403,117M,776.0,2.74M,129K,347M,4497,
 Hoang,124K,246M,1664,17M,385.0,289K,31.5K,47.1M,69,
@@ -596,10 +513,6 @@ HVDES,205K,48.5M,1296,15.4M,184.0,72.3K,18K,40.6M,233,
 I Hate Models,1.9M,123M,3265,32.7M,471.0,725K,16.7K,59.1M,393,
 If Found,31.5K,46.9M,1643,51.9M,302.0,113K,5130,12.7M,332,
 IMANU,,,,,,,,,,
-Isaac Civil,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Jaded,142K,364M,9520,156M,715.0,3.46M,35.1K,440M,4536,
 James Hype,6.49M,2.92B,32.3K,589M,2315.0,19.9M,550K,1.7B,19.9K,
 jamesjamesjames,87.1K,112M,3448,89.2M,467.0,293K,4925,12.3M,338,
@@ -669,10 +582,6 @@ Pauline Herr,86.8K,119M,3584,65.7M,374.0,316K,14.6K,106M,691,
 PAWSA,1.96M,896M,12.3K,222M,1245.0,6.42M,549K,2.81B,6266,
 Peekaboo,610K,277M,4358,68.3M,508.0,546K,30.8K,79M,4286,
 Pretty Pink,974K,179M,4263,62M,612.0,1.29M,6334,31.9M,3819,
-Primal Luxe,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Qlank,56.2K,42.3M,1729,28.3M,220.0,70.2K,6112,105M,1393,
 R.A.W.,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
@@ -726,25 +635,9 @@ Young Bombs,342K,490M,5567,106M,520.0,1.28M,127K,464M,396,
 Zeds Dead,10.2M,1.78B,13.2K,183M,890.0,5.45M,95.8K,228M,8891,
 Chase & Status,6.29M,2.34B,15.5K,243M,1578.0,13.5M,280K,922M,8807,
 1991,294K,404M,6313,93M,520.0,851K,53.6K,264M,2920,
-5GODZ,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 A-Trak,7.92M,2.61B,33.3K,348M,2044.0,27M,274K,783M,14.5K,
 Craze,449K,46.3M,1338,13.8M,163.0,614K,9100,1.36M,556,
 A.M.C,337K,79.7M,2204,14.9M,314.0,326K,6461,32.6M,2406,
-ACIDTWIINS,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
-Adam Auburn,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
-Air2Earth,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Alan Walker,133M,32.4B,66.2K,1.03B,4359.0,149M,27.9M,45B,10.7K,
 Alexandar Smash,8978,7.48M,382,12.2M,100.0,30.4K,146,969K,119,
 Alix Perez,509K,116M,3283,19M,637.0,537K,6485,10M,4203,
@@ -756,10 +649,6 @@ Ann Clue,391K,78.7M,1663,22.4M,347.0,413K,8185,33.4M,325,
 The Archer,22.4K,10.9M,906,19.7M,82.0,58.6K,1456,14.1M,293,
 ATB,3.69M,2.39B,24.3K,527M,2157.0,24.9M,386K,679M,4839,
 Audien,1.64M,1.9B,12.4K,174M,942.0,6.08M,396K,1.49B,8421,
-Audiofreq&Code Black&Toneshifterz,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Autograf,857K,556M,8777,139M,832.0,1.86M,27.7K,101M,1189,
 Avision,134K,11.1M,1369,11.2M,415.0,589K,1309,2.04M,3267,
 Baby Weight,19.3K,1.73M,588,14.8M,140.0,13K,605,7.33M,236,
@@ -773,22 +662,10 @@ Blunts & Blondes,444K,76.1M,1559,29.2M,132.0,97.6K,5396,13.7M,383,
 BOMBAYS,17.5K,7.18M,654,12.8M,163.0,30.7K,550,7.63M,247,
 Boston Bun,213K,173M,5664,145M,600.0,1.21M,8311,41.2M,1932,
 Brainchild,6519,3.11M,271,849K,56.0,46.5K,124,124K,85,
-Brandon Elliot,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Burko,31.2K,16.5M,1166,21.7M,204.0,61.9K,827,3.17M,478,
 Candl,10.6K,212K,72,593K,24.0,430,64,31.8K,41,
 Carl Craig,777K,121M,5922,50.4M,971.0,2.84M,4513,9.44M,6642,
-Carlo Key,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Cat Dealers,2.86M,1.62B,18.6K,331M,1275.0,8.01M,704K,1.45B,5773,
-Cats & Boots Records,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Chapter & Verse,166K,98.8M,5915,144M,502.0,775K,8485,81.6M,7010,
 Charlotte de Witte,12.7M,633M,9364,115M,1226.0,4.36M,140K,1.68B,7883,
 Chocolate Sushi,1133,22.6K,23,374K,1.0,60,10,14.6K,5,
@@ -796,17 +673,9 @@ Chris Jay,363,963K,40,182K,17.0,35.8K,171,203K,7,
 Cloonee,1.51M,654M,12.8K,180M,873.0,4.6M,68.1K,308M,8771,
 Coco & Breezy,357K,71.8M,2612,96.6M,360.0,222K,6215,27.9M,384,
 Colored Craig,,,,,,,,,,Timeout 30000ms exceeded.
-Corey Sizemore,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
-Richie Panic,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Craig Connelly,413K,163M,1887,18.4M,492.0,865K,26.6K,28.9M,9691,
 Crime Family,113,44.1K,,Playlist Reach,,155,96,97.6K,,
-David Guetta&MORTEN,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+MORTEN,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
@@ -822,7 +691,7 @@ Charles Feelgood,17.3K,642K,66,160K,69.0,38.1K,122,53.9K,329,
 DJ Heather,3577,297K,87,437K,25.0,9149,67,69.1K,144,
 DJ Holographic,48.6K,945K,305,3.65M,42.0,8734,117,180K,80,
 Doctor P,1.73M,450M,5362,52.8M,687.0,1.63M,160K,1.24B,5025,
-Doctor P&FuntCase,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Doctor P,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
@@ -840,10 +709,6 @@ Eric Mark,5415,1.32M,309,5.26M,70.0,2935,205,87.1K,171,
 €URO TRA$H,1.44M,51.6M,1947,39.3M,353.0,320K,81.7K,124M,1244,
 Evan Giia,267K,303M,6574,150M,701.0,1.05M,264K,273M,669,
 Evol Intent,341K,29.1M,652,5.01M,244.0,69.4K,474,441K,510,
-MC XYZ,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Fantom Freq,16.5K,4.41M,758,12.7M,74.0,6920,694,500K,597,
 Felix Da Housecat,764K,212M,6364,79.5M,1314.0,3.88M,12.8K,68.3M,3284,
 FJAAK,882K,71.6M,3117,18.6M,474.0,350K,6188,56M,1789,
@@ -857,7 +722,7 @@ Gem & Tauri,33.5K,9.08M,444,5.52M,184.0,30.6K,430,1.18M,221,
 Gene Farris,290K,48.3M,4050,42.1M,537.0,849K,4490,12.9M,10.2K,
 Getter,2.71M,1.57B,7301,68.6M,532.0,1.86M,85.3K,193M,4132,
 Gibson Parker,14K,31M,1009,22M,80.0,65.4K,1066,2.2M,105,
-Big Gigantic&NGHTMRE,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Big Gigantic,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
@@ -870,7 +735,7 @@ helloworld,58.3K,14.1M,841,11.8M,88.0,24.4K,1098,1.92M,238,
 Honey Dijon,940K,171M,8160,160M,1092.0,1.55M,90.1K,429M,6917,
 Hpnotic,36.6K,739K,193,2.23M,26.0,515,43,13K,44,
 Lucky Rabbit,10.5K,407K,81,735K,9.0,542,232,102K,26,
-Hulk Gang (Valentino Khan + 4B),,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Valentino Khan,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
@@ -907,10 +772,6 @@ LNY TNZ,387K,456M,6898,106M,615.0,997K,75.2K,174M,4799,
 longstoryshort,153K,54.2M,2380,52.3M,297.0,143K,11.3K,61.7M,1698,
 LP Giobbi,683K,442M,10.3K,225M,1152.0,1.55M,439K,712M,3839,
 Lucati,91.7K,17.6M,1710,27.4M,269.0,143K,9519,13.1M,1649,
-LuckyRoll,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 LUPA,21.1K,2.32M,298,6.24M,151.0,21.1K,467,980K,137,
 Maanic,524,5300,5,6653,,56,1,,,
 Macky Gee,759K,535M,4369,22.5M,703.0,2.17M,97K,1.74B,459,
@@ -970,10 +831,6 @@ Ruben de Ronde,516K,85.4M,2394,36.5M,573.0,736K,13.3K,18.3M,9036,
 Ruff Hauser,1667,152K,28,89.5K,2.0,1182,33,3943,32,
 Roy Wilkins,1204,4186,3,33.3K,,10,4,786,4,
 Rusko,2.85M,398M,4793,55M,486.0,1.98M,8545,23.3M,2559,
-S-Doobie,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Sam Divine,841K,47.1M,2542,44.6M,306.0,559K,3308,14.5M,3491,
 Samwise,7414,71.6M,890,11.9M,22.0,12.1K,797,2.72M,54,
 San Holo,2.87M,1.91B,13.5K,228M,1203.0,4.38M,127K,265M,5156,
@@ -988,7 +845,7 @@ Solh,1121,157K,30,146K,,283,76,120K,,
 Soothslayer,4522,536K,38,1.04M,17.0,508,8,5606,19,
 Spency Be,5967,267K,51,594K,4.0,2938,39,33.7K,,
 Stanley Kubrix,5357,843K,326,1.81M,48.0,6308,228,394K,169,
-Sub Focus&Wilkinson,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Wilkinson,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
@@ -1017,27 +874,15 @@ Wildstylez,1.64M,792M,8996,72.1M,690.0,2.76M,154K,373M,12K,
 XiJaro & Pitch,79.7K,53.7M,1201,8.63M,365.0,205K,11.9K,8.48M,8223,
 Yolanda Be Cool,290K,1.06B,8559,130M,912.0,7.81M,597K,770M,3869,
 Zhu,4.17M,3.95B,30.2K,352M,1900.0,16.4M,646K,2.22B,6598,
-$ami G,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 2AR,185K,700K,348,5.67M,22.0,1734,437,1.13M,40,
 33 Below,150K,54.3M,1745,45.2M,231.0,112K,1301,8.47M,450,
 MPH,209K,100M,3822,76.4M,520.0,425K,4371,23.9M,4835,
 6ejou,219K,35.3M,1116,3.97M,164.0,110K,2419,12.3M,21,
 Adam Ten,250K,86.2M,4624,63.8M,741.0,1.68M,21.8K,100M,4594,
 Mita Gami,178K,37.1M,2646,22.2M,542.0,1.02M,7088,34.9M,2925,
-AfroMantis Collective,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 AHEE,319K,55.6M,1759,28.4M,309.0,92.3K,9803,33.6M,621,
 Ahmed Spins,304K,187M,3933,47.9M,753.0,4.63M,820K,902M,381,
 Airrica,33.3K,1.82M,382,9.6M,42.0,11.4K,147,461K,180,
-Alcala Bros,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Alex Chapman,249K,12.7M,785,35.1M,123.0,34.5K,79.3K,140M,18,
 Zoe Gitter,18.4K,220K,40,6.73M,11.0,303,19,35.8K,2,
 Alignment,633K,88.1M,2994,17.9M,444.0,456K,4934,29.8M,1816,
@@ -1051,10 +896,6 @@ Call log:
 "
 Andromedik,218K,263M,3494,49M,494.0,1.07M,26.6K,133M,1751,
 ANGEL CANNON,24.8K,22.6M,1164,14.9M,113.0,104K,1857,11.5M,342,
-Annicka,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Anoluxx,40.4K,1.54M,206,3.58M,23.0,3131,135,250K,7,
 Apashe,1.87M,1.27B,10.4K,94.4M,911.0,6.66M,841K,3.47B,2922,
 AQUTIE,18.8K,614K,204,1.89M,27.0,4700,123,1.07M,51,
@@ -1073,10 +914,6 @@ Rossi.,354K,91.4M,3487,85.1M,543.0,419K,21.8K,232M,2303,
 Bicep,3.09M,1.35B,15.3K,165M,1695.0,9.36M,297K,2.04B,6797,
 BIIA,304K,2.76M,219,1.41M,51.0,14.6K,203,1.36M,21,
 BLOND:ISH,1.84M,575M,15.5K,269M,1328.0,4.31M,117K,773M,7223,
-Bo Knows,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Boizy,1532,621K,43,1.46M,3.0,1669,7,,,
 Bontan,175K,114M,5536,62.9M,614.0,3.31M,31.3K,63.4M,8676,
 Boys Noize,2.35M,670M,18K,265M,2062.0,6.12M,54.5K,172M,9748,
@@ -1121,7 +958,7 @@ Eli Fola,35.6K,1.94M,550,12.9M,98.0,27.1K,569,2.51M,397,
 Fcukers,227K,36.5M,2145,67.1M,292.0,258K,2859,22.1M,176,
 Funk Tribu,676K,336M,4350,87.2M,1134.0,1.46M,308K,3.88B,511,
 ØTTA,243K,9.65M,630,3.28M,107.0,31.1K,435,1.73M,13,
-Fury&Dknow (MC Dino),,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Fury,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
@@ -1133,35 +970,22 @@ Call log:
 "
 Gorgon City,3.22M,2.25B,28.6K,371M,1821.0,16.4M,333K,450M,16.2K,
 Goshfather,95.6K,33.2M,1320,55M,145.0,284K,2233,13M,664,
-Greg Mike,,,,,,,,,,
 GUDFELLA,97.7K,86.8M,3391,105M,486.0,506K,34.2K,187M,786,
 HANZ,73.4K,55.8M,1525,28.2M,329.0,38.7K,965,7.11M,27,
 Harvard Bass,114K,14.1M,928,6.55M,352.0,243K,2699,1.98M,2916,
 Shaded,42.3K,9.93M,961,11.8M,263.0,156K,653,3.15M,1235,
 Haylee Wood,143K,3.92M,912,24.3M,60.0,18.8K,596,3.94M,539,
 Hex Cougar,162K,139M,2706,37.6M,245.0,387K,15.8K,154M,1249,
-Horichh,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 horsegiirL,527K,107M,2552,48M,485.0,653K,185K,2B,107,
 HUMAN404,11.9K,874K,152,3.43M,23.0,4249,81,162K,268,
 INFEKT,407K,74.6M,1453,12.7M,169.0,73.4K,4014,15.6M,2624,
 INIGMA,25.5K,1.15M,162,2.85M,17.0,2291,282,2.81M,30,
 INVT,58.6K,3.64M,612,5.26M,240.0,50.4K,637,902K,304,
 INZO,602K,313M,3641,35M,397.0,676K,310K,2.82B,615,
-ISOxo&Knock2,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 it's murph,504K,359M,4546,92M,251.0,596K,173K,1.09B,589,
 Jenna Shaw,746,6450,2,1490,,74,6,856,1,
 KARABA,1.36M,4.54M,379,20.7M,264.0,55.2K,3669,15.4M,41,
 Kasango,206K,172M,4912,73.3M,821.0,3.06M,243K,320M,2086,
-Kenzii Scott,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 KidMaverick,2666,469K,16,176K,13.0,342,117,2.6M,,
 Kieran San Jose,14.6K,1.73M,353,4.13M,33.0,19.5K,284,986K,332,
 KILIMANJARO,87.1K,239M,4988,109M,583.0,866K,63K,212M,1240,
@@ -1182,10 +1006,6 @@ Lostly,68K,8.71M,568,5.73M,258.0,141K,1327,1.41M,5385,
 LUMBERJVCK,252K,24.9M,645,8.38M,48.0,72.1K,1010,3.91M,621,
 Malixe,13.5K,1.74M,290,5.51M,18.0,2444,104,69K,65,
 MALUGI,273K,69.3M,1959,52.3M,327.0,247K,3025,21.4M,674,
-Marianna Hadad,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Marie Vaunt,617K,75.9M,2241,48.8M,359.0,341K,22K,82.5M,3788,
 Marlon Hoffstadt,1.13M,483M,9866,193M,1164.0,3.86M,86.5K,434M,4365,
 Mattilo,187K,37.4M,1335,32.1M,231.0,204K,55.2K,364M,186,
@@ -1210,7 +1030,7 @@ OGUZ,2.58M,80.4M,1783,13.2M,273.0,321K,7158,45.9M,166,
 Omiki,701K,244M,4181,69.5M,670.0,1.54M,61K,126M,2111,
 Omnom,150K,98M,4167,102M,366.0,426K,13K,81.2M,3071,
 OMRI.,73.1K,10.1M,1209,12.1M,173.0,263K,1577,11.2M,1198,
-AMÉMÉ&Baron,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+AMÉMÉ,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
@@ -1218,10 +1038,6 @@ Onlynumbers,187K,69.8M,1322,7.1M,166.0,255K,3501,11.9M,282,
 Oppidan,217K,51M,2117,48.1M,328.0,234K,3880,22.3M,1969,
 Pablo Bozzi,120K,5.33M,379,2.51M,240.0,65.2K,457,856K,176,
 Papa Lu,17.7K,204K,105,2.46M,13.0,1681,70,176K,38,
-DJ Pinke,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 Sam Binga,130K,25.5M,1647,12M,358.0,187K,1183,2.61M,1159,
 Prospa,359K,256M,7577,160M,745.0,1.95M,23.5K,130M,4635,
 Josh Baker,808K,145M,3258,84.6M,338.0,385K,69.5K,308M,2233,
@@ -1248,7 +1064,7 @@ Samplifire,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
-Sarah de Warren,,,Collaborators,,,,,,,
+Sarah de Warren,,,,,,,,,,
 Sarz,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
@@ -1265,18 +1081,14 @@ Skream,1.79M,453M,11.4K,150M,1867.0,8.26M,106K,341M,5386,
 Slugg,27.8K,2.95M,455,4.49M,74.0,41.8K,431,1.32M,494,
 Classmatic,173K,25.2M,1930,14.5M,361.0,404K,5257,24.8M,2688,
 southstar,444K,900M,10.3K,272M,1462.0,3.2M,501K,8.07B,415,
-Space 92&Popof,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
-Stedicam,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Space 92,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
 Steller,107K,12.4M,638,7.48M,60.0,15.8K,3120,7.61M,102,
 Stoley,7674,1.67M,394,6.9M,32.0,13.1K,138,383K,123,
 Synnhaven,342,42.6K,41,285K,4.0,175,7,5304,,
-Tchami&Malaa,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Tchami,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
@@ -1299,11 +1111,11 @@ Walker & Royce,424K,145M,6235,96.7M,723.0,1.38M,9849,72.9M,6667,
 Ward Andrews,33.2K,1.79M,212,5.39M,5.0,4347,1303,123M,20,
 ISOxo,453K,173M,3225,64.7M,442,380K,15.9K,92.9M,6651,
 wes mills,103K,32.5M,1282,36.9M,145,23.5K,1202,9.27M,117,
-Willie Pake,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator(""a[href*=\""/artist/\""]"").first
-"
 X CLUB.,191K,36.9M,1848,38.7M,397,282K,5791,35.4M,612,
 Xandra,780,539K,21,21.5K,19,1765,133,12.8K,6,
 YDG,260K,228M,3322,53.7M,856,1.07M,166K,582M,1385,
 Yoji Biomehanika,55.9K,6.21M,376,3.46M,170,14.2K,344,186K,515,
+Decoder,,,,,,,,,,
+4B,,,,,,,,,,
+Baron,,,,,,,,,,
+Malaa,,,,,,,,,,
