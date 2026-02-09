@@ -1248,23 +1248,23 @@ Samplifire,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
-Sarah de Warren,N/A,N/A,Collaborators,N/A,N/A,N/A,N/A,N/A,N/A,
+Sarah de Warren,,,Collaborators,,,,,,,
 Sarz,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
-Selective Response,13.4K,630K,114,695K,61,8435,131,68.1K,106,
-Shades,131K,19.9M,675,4.31M,139,75.6K,1560,3.93M,497,
-Showtek,8.39M,3.17B,27.9K,317M,1290,23.2M,146K,663M,24.9K,
-Sihk,51K,19.1M,1000,19.4M,235,37.3K,893,4.48M,502,
-Silcrow,12.1K,7.33M,308,3.24M,88,48.9K,236,792K,161,
-Silver Panda,131K,175M,4102,80.2M,470,1.11M,87.4K,139M,2831,
-Simula,201K,213M,3513,21.1M,584,588K,18.7K,99.3M,1462,
-Skepta,10.4M,8.45B,46.5K,641M,3528,27.8M,1.69M,7.58B,3629,
-Skream,1.79M,453M,11.4K,150M,1867,8.26M,106K,341M,5386,
-Slugg,27.8K,2.95M,455,4.49M,74,41.8K,431,1.32M,494,
-Classmatic,173K,25.2M,1930,14.5M,361,404K,5257,24.8M,2688,
-southstar,444K,900M,10.3K,272M,1462,3.2M,501K,8.07B,415,
+Selective Response,13.4K,630K,114,695K,61.0,8435,131,68.1K,106,
+Shades,131K,19.9M,675,4.31M,139.0,75.6K,1560,3.93M,497,
+Showtek,8.39M,3.17B,27.9K,317M,1290.0,23.2M,146K,663M,24.9K,
+Sihk,51K,19.1M,1000,19.4M,235.0,37.3K,893,4.48M,502,
+Silcrow,12.1K,7.33M,308,3.24M,88.0,48.9K,236,792K,161,
+Silver Panda,131K,175M,4102,80.2M,470.0,1.11M,87.4K,139M,2831,
+Simula,201K,213M,3513,21.1M,584.0,588K,18.7K,99.3M,1462,
+Skepta,10.4M,8.45B,46.5K,641M,3528.0,27.8M,1.69M,7.58B,3629,
+Skream,1.79M,453M,11.4K,150M,1867.0,8.26M,106K,341M,5386,
+Slugg,27.8K,2.95M,455,4.49M,74.0,41.8K,431,1.32M,494,
+Classmatic,173K,25.2M,1930,14.5M,361.0,404K,5257,24.8M,2688,
+southstar,444K,900M,10.3K,272M,1462.0,3.2M,501K,8.07B,415,
 Space 92&Popof,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
@@ -1273,4 +1273,27 @@ Stedicam,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
-Steller,107K,12.4M,638,7.48M,60,15.8K,3120,7.61M,102,
+Steller,107K,12.4M,638,7.48M,60.0,15.8K,3120,7.61M,102,
+Stoley,7674,1.67M,394,6.9M,32,13.1K,138,383K,123,
+Synnhaven,342,42.6K,41,285K,4,175,7,5304,N/A,
+Tchami&Malaa,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""a[href*=\""/artist/\""]"").first
+"
+TDJ,52.5K,22.6M,1229,22.4M,280,44.5K,708,1.01M,110,
+Tim Underscore,7999,41.1K,13,68.8K,1,139,16,1882,N/A,
+TOKiMONSTA,1.56M,490M,9389,161M,1229,1.6M,29.4K,166M,588,
+Trance Wax,99.5K,26.5M,1895,23.7M,680,141K,17K,75M,1811,
+TRICKSTAR,12.3K,5.43M,381,8.71M,80,7695,559,3.11M,289,
+Trivecta,327K,266M,4268,58.2M,539,558K,26.2K,81.1M,2518,
+Truth,447K,65.5M,1327,5.81M,222,209K,6610,64.9M,699,
+TWENTY SIX,81.7K,259M,4707,157M,706,1.56M,1.24M,5.73B,1316,
+Uncle Waffles,9.24M,314M,3302,72.8M,636,10.1M,1.99M,4.36B,188,
+veggi,1.7M,66.6M,1759,46.1M,177,106K,7190,65.5M,89,
+Victor Ruiz,1.04M,151M,4340,38.2M,733,2.86M,9275,39M,9199,
+Villager,169K,7.02M,880,14.2M,289,59.2K,2914,1.37M,279,
+Doozie,499K,29M,1688,34.9M,261,262K,113K,412M,279,
+VNSSA,133K,33.4M,2932,51.5M,487,346K,4301,34.6M,2595,
+Wakyin,186K,218M,4456,74.6M,494,1.51M,171K,1.05B,505,
+Walker & Royce,424K,145M,6235,96.7M,723,1.38M,9849,72.9M,6667,
+Ward Andrews,33.2K,1.79M,212,5.39M,5,4347,1303,123M,20,
