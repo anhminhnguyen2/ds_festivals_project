@@ -705,29 +705,61 @@ Sullivan King,2.28M,526M,5040,56.9M,593.0,789K,110K,354M,5918,
 Sultan + Shepard,1.13M,977M,12.6K,202M,1177.0,7.64M,69.1K,120M,11.1K,
 Tchami,2.7M,1.27B,21.3K,300M,1839.0,6.69M,122K,581M,14.1K,
 AC Slater,702K,338M,6814,74.4M,606.0,1.81M,17.4K,72.9M,7549,
-Thee-O,7312,52.3K,3,1209,2,2493,41,1,11,
-Things You Say,11.3K,2.16M,270,2.57M,90,17.2K,113,279K,92,
-Todd Terry,785K,703M,15.9K,187M,1561,13.8M,95.2K,441M,19.2K,
-Tom & Collins,615K,126M,5144,108M,462,781K,9881,72.4M,2858,
+Thee-O,7312,52.3K,3,1209,2.0,2493,41,1,11,
+Things You Say,11.3K,2.16M,270,2.57M,90.0,17.2K,113,279K,92,
+Todd Terry,785K,703M,15.9K,187M,1561.0,13.8M,95.2K,441M,19.2K,
+Tom & Collins,615K,126M,5144,108M,462.0,781K,9881,72.4M,2858,
 Tones,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
-Township Rebellion,323K,65.3M,2843,22M,598,1.02M,1578,6.7M,3390,
-Triode,9789,4.26M,293,4M,214,27.7K,1060,911K,1159,
-Tsu Nami,87.1K,15.3M,886,18.4M,133,17K,771,13.5M,177,
-Vini Vici,4.59M,1.74B,17.8K,243M,1969,11.5M,222K,851M,11.6K,
-Will Atkinson,522K,63.1M,1879,28.3M,491,533K,11.2K,17.4M,10.6K,
-Yellow Claw,5.72M,3.82B,25.4K,333M,1783,20.1M,1.09M,1.59B,15.5K,
-yetep,119K,83M,2092,34.1M,302,77.9K,4141,5.45M,392,
-Yokai,12.3K,1.08M,102,1.1M,12,785,2334,17.2M,12,
-Yoshi & Razner,25.2K,6.36M,486,5M,267,41.1K,1249,1.16M,3329,
-Young Bombs,342K,490M,5567,106M,520,1.28M,127K,464M,396,
-Zeds Dead,10.2M,1.78B,13.2K,183M,890,5.45M,95.8K,228M,8891,
-Chase & Status,6.29M,2.34B,15.5K,243M,1578,13.5M,280K,922M,8807,
-1991,294K,404M,6313,93M,520,851K,53.6K,264M,2920,
+Township Rebellion,323K,65.3M,2843,22M,598.0,1.02M,1578,6.7M,3390,
+Triode,9789,4.26M,293,4M,214.0,27.7K,1060,911K,1159,
+Tsu Nami,87.1K,15.3M,886,18.4M,133.0,17K,771,13.5M,177,
+Vini Vici,4.59M,1.74B,17.8K,243M,1969.0,11.5M,222K,851M,11.6K,
+Will Atkinson,522K,63.1M,1879,28.3M,491.0,533K,11.2K,17.4M,10.6K,
+Yellow Claw,5.72M,3.82B,25.4K,333M,1783.0,20.1M,1.09M,1.59B,15.5K,
+yetep,119K,83M,2092,34.1M,302.0,77.9K,4141,5.45M,392,
+Yokai,12.3K,1.08M,102,1.1M,12.0,785,2334,17.2M,12,
+Yoshi & Razner,25.2K,6.36M,486,5M,267.0,41.1K,1249,1.16M,3329,
+Young Bombs,342K,490M,5567,106M,520.0,1.28M,127K,464M,396,
+Zeds Dead,10.2M,1.78B,13.2K,183M,890.0,5.45M,95.8K,228M,8891,
+Chase & Status,6.29M,2.34B,15.5K,243M,1578.0,13.5M,280K,922M,8807,
+1991,294K,404M,6313,93M,520.0,851K,53.6K,264M,2920,
 5GODZ,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
-A-Trak,7.92M,2.61B,33.3K,348M,2044,27M,274K,783M,14.5K,
+A-Trak,7.92M,2.61B,33.3K,348M,2044.0,27M,274K,783M,14.5K,
+Craze,449K,46.3M,1338,13.8M,163,614K,9100,1.36M,556,
+A.M.C,337K,79.7M,2204,14.9M,314,326K,6461,32.6M,2406,
+ACIDTWIINS,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""a[href*=\""/artist/\""]"").first
+"
+Adam Auburn,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""a[href*=\""/artist/\""]"").first
+"
+Air2Earth,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""a[href*=\""/artist/\""]"").first
+"
+Alan Walker,133M,32.4B,66.2K,1.03B,4359,149M,27.9M,45B,10.7K,
+Alexandar Smash,8978,7.48M,382,12.2M,100,30.4K,146,969K,119,
+Alix Perez,509K,116M,3283,19M,637,537K,6485,10M,4203,
+Alyx Ander,32.1K,42M,1789,67.1M,258,236K,1127,2.89M,432,
+ANATTA,38.3K,5.25M,1010,10.2M,85,23.3K,460,1.55M,370,
+Anderson M,7124,313K,96,659K,18,1145,141,42.2K,75,
+Anfisa Letyago,2.42M,45.2M,2642,41.7M,615,286K,6080,21.2M,1529,
+Ann Clue,391K,78.7M,1663,22.4M,347,413K,8185,33.4M,325,
+The Archer,22.4K,10.9M,906,19.7M,82,58.6K,1456,14.1M,293,
+ATB,3.69M,2.39B,24.3K,527M,2157,24.9M,386K,679M,4839,
+Audien,1.64M,1.9B,12.4K,174M,942,6.08M,396K,1.49B,8421,
+Audiofreq&Code Black&Toneshifterz,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""a[href*=\""/artist/\""]"").first
+"
+Autograf,857K,556M,8777,139M,832,1.86M,27.7K,101M,1189,
+Avision,134K,11.1M,1369,11.2M,415,589K,1309,2.04M,3267,
+Baby Weight,19.3K,1.73M,588,14.8M,140,13K,605,7.33M,236,
