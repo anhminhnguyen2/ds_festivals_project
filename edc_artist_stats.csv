@@ -792,9 +792,9 @@ Call log:
 Chapter & Verse,166K,98.8M,5915,144M,502.0,775K,8485,81.6M,7010,
 Charlotte de Witte,12.7M,633M,9364,115M,1226.0,4.36M,140K,1.68B,7883,
 Chocolate Sushi,1133,22.6K,23,374K,1.0,60,10,14.6K,5,
-Chris Jay,363,963K,40,182K,17,35.8K,171,203K,7,
-Cloonee,1.51M,654M,12.8K,180M,873,4.6M,68.1K,308M,8771,
-Coco & Breezy,357K,71.8M,2612,96.6M,360,222K,6215,27.9M,384,
+Chris Jay,363,963K,40,182K,17.0,35.8K,171,203K,7,
+Cloonee,1.51M,654M,12.8K,180M,873.0,4.6M,68.1K,308M,8771,
+Coco & Breezy,357K,71.8M,2612,96.6M,360.0,222K,6215,27.9M,384,
 Colored Craig,,,,,,,,,,Timeout 30000ms exceeded.
 Corey Sizemore,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
@@ -804,20 +804,49 @@ Richie Panic,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
-Craig Connelly,413K,163M,1887,18.4M,492,865K,26.6K,28.9M,9691,
-Crime Family,113,44.1K,N/A,Playlist Reach,N/A,155,96,97.6K,N/A,
+Craig Connelly,413K,163M,1887,18.4M,492.0,865K,26.6K,28.9M,9691,
+Crime Family,113,44.1K,,Playlist Reach,,155,96,97.6K,,
 David Guetta&MORTEN,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
-Definitive,55.7K,3.87M,284,3.9M,31,7584,111,12.7K,182,
-Delta Heavy,1.19M,542M,5119,38M,536,1.08M,10.6K,42.4M,3790,
-Muzz,350K,304M,4442,26.3M,364,678K,31K,115M,1948,
-Dennis Cruz,932K,216M,6848,49.9M,774,3.06M,26.3K,77.9M,11.1K,
-Derrick Carter,82K,6.58M,991,7.39M,290,234K,2364,15.3M,1472,
-Deyo,2682,302K,54,542K,N/A,402,43,263K,N/A,
-Diamond Dallas Tex,355K,544K,98,434K,4,2015,40,225K,36,
-Diesel,206K,76.1M,713,5.4M,85,253K,1342,679K,3,
-Charles Feelgood,17.3K,642K,66,160K,69,38.1K,122,53.9K,329,
-DJ Heather,3577,297K,87,437K,25,9149,67,69.1K,144,
-DJ Holographic,48.6K,945K,305,3.65M,42,8734,117,180K,80,
+Definitive,55.7K,3.87M,284,3.9M,31.0,7584,111,12.7K,182,
+Delta Heavy,1.19M,542M,5119,38M,536.0,1.08M,10.6K,42.4M,3790,
+Muzz,350K,304M,4442,26.3M,364.0,678K,31K,115M,1948,
+Dennis Cruz,932K,216M,6848,49.9M,774.0,3.06M,26.3K,77.9M,11.1K,
+Derrick Carter,82K,6.58M,991,7.39M,290.0,234K,2364,15.3M,1472,
+Deyo,2682,302K,54,542K,,402,43,263K,,
+Diamond Dallas Tex,355K,544K,98,434K,4.0,2015,40,225K,36,
+Diesel,206K,76.1M,713,5.4M,85.0,253K,1342,679K,3,
+Charles Feelgood,17.3K,642K,66,160K,69.0,38.1K,122,53.9K,329,
+DJ Heather,3577,297K,87,437K,25.0,9149,67,69.1K,144,
+DJ Holographic,48.6K,945K,305,3.65M,42.0,8734,117,180K,80,
+Doctor P,1.73M,450M,5362,52.8M,687,1.63M,160K,1.24B,5025,
+Doctor P&FuntCase,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""a[href*=\""/artist/\""]"").first
+"
+Dot,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""a[href*=\""/artist/\""]"").first
+"
+Dr. Defiant,3813,98.5K,5,5600,4,3107,187,12.9M,5,
+Duck Sauce,1.4M,960M,11.9K,158M,856,9.14M,93.5K,763M,4971,
+DVRKO,211K,43.6M,1735,71.1M,104,37.9K,896,13M,439,
+Echod,12K,48K,9,76.3K,1,53,4,8238,5,
+El Monk,6673,53.9K,26,137K,8,535,80,22.9K,22,
+Eprom,403K,88.1M,2317,25.9M,401,200K,3617,17.5M,2326,
+Eric Mark,5415,1.32M,309,5.26M,70,2935,205,87.1K,171,
+€URO TRA$H,1.44M,51.6M,1947,39.3M,353,320K,81.7K,124M,1244,
+Evan Giia,267K,303M,6574,150M,701,1.05M,264K,273M,669,
+Evol Intent,341K,29.1M,652,5.01M,244,69.4K,474,441K,510,
+MC XYZ,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""a[href*=\""/artist/\""]"").first
+"
+Fantom Freq,16.5K,4.41M,758,12.7M,74,6920,694,500K,597,
+Felix Da Housecat,764K,212M,6364,79.5M,1314,3.88M,12.8K,68.3M,3284,
+FJAAK,882K,71.6M,3117,18.6M,474,350K,6188,56M,1789,
+FlashGang,2460,4301,12,53K,3,63,8,164,2,
+Francis Mercier,760K,512M,11.2K,186M,953,5.28M,376K,914M,4331,
+Kanine,413K,382M,4488,48.8M,535,856K,19.4K,79.2M,3083,
