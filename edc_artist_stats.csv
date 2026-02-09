@@ -763,32 +763,61 @@ Call log:
 Autograf,857K,556M,8777,139M,832.0,1.86M,27.7K,101M,1189,
 Avision,134K,11.1M,1369,11.2M,415.0,589K,1309,2.04M,3267,
 Baby Weight,19.3K,1.73M,588,14.8M,140.0,13K,605,7.33M,236,
-Bear Grillz,1.07M,156M,2788,57.3M,296,233K,20.6K,49.3M,1673,
-Kompany,585K,148M,3179,47M,369,264K,8455,41.7M,6072,
-Ben Böhmer,2.4M,1.39B,12.6K,142M,1311,5.59M,157K,514M,6433,
-BIJOU,328K,149M,5724,112M,488,556K,21.5K,102M,3696,
-Black V Neck,142K,122M,5360,108M,664,1.19M,230K,576M,4899,
-Blossom,186K,25.1M,1459,28.9M,87,40.8K,1228,5.07M,557,
-Blunts & Blondes,444K,76.1M,1559,29.2M,132,97.6K,5396,13.7M,383,
-BOMBAYS,17.5K,7.18M,654,12.8M,163,30.7K,550,7.63M,247,
-Boston Bun,213K,173M,5664,145M,600,1.21M,8311,41.2M,1932,
-Brainchild,6519,3.11M,271,849K,56,46.5K,124,124K,85,
+Bear Grillz,1.07M,156M,2788,57.3M,296.0,233K,20.6K,49.3M,1673,
+Kompany,585K,148M,3179,47M,369.0,264K,8455,41.7M,6072,
+Ben Böhmer,2.4M,1.39B,12.6K,142M,1311.0,5.59M,157K,514M,6433,
+BIJOU,328K,149M,5724,112M,488.0,556K,21.5K,102M,3696,
+Black V Neck,142K,122M,5360,108M,664.0,1.19M,230K,576M,4899,
+Blossom,186K,25.1M,1459,28.9M,87.0,40.8K,1228,5.07M,557,
+Blunts & Blondes,444K,76.1M,1559,29.2M,132.0,97.6K,5396,13.7M,383,
+BOMBAYS,17.5K,7.18M,654,12.8M,163.0,30.7K,550,7.63M,247,
+Boston Bun,213K,173M,5664,145M,600.0,1.21M,8311,41.2M,1932,
+Brainchild,6519,3.11M,271,849K,56.0,46.5K,124,124K,85,
 Brandon Elliot,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
-Burko,31.2K,16.5M,1166,21.7M,204,61.9K,827,3.17M,478,
-Candl,10.6K,212K,72,593K,24,430,64,31.8K,41,
-Carl Craig,777K,121M,5922,50.4M,971,2.84M,4513,9.44M,6642,
+Burko,31.2K,16.5M,1166,21.7M,204.0,61.9K,827,3.17M,478,
+Candl,10.6K,212K,72,593K,24.0,430,64,31.8K,41,
+Carl Craig,777K,121M,5922,50.4M,971.0,2.84M,4513,9.44M,6642,
 Carlo Key,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
-Cat Dealers,2.86M,1.62B,18.6K,331M,1275,8.01M,704K,1.45B,5773,
+Cat Dealers,2.86M,1.62B,18.6K,331M,1275.0,8.01M,704K,1.45B,5773,
 Cats & Boots Records,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
 Call log:
   - waiting for locator(""a[href*=\""/artist/\""]"").first
 "
-Chapter & Verse,166K,98.8M,5915,144M,502,775K,8485,81.6M,7010,
-Charlotte de Witte,12.7M,633M,9364,115M,1226,4.36M,140K,1.68B,7883,
-Chocolate Sushi,1133,22.6K,23,374K,1,60,10,14.6K,5,
+Chapter & Verse,166K,98.8M,5915,144M,502.0,775K,8485,81.6M,7010,
+Charlotte de Witte,12.7M,633M,9364,115M,1226.0,4.36M,140K,1.68B,7883,
+Chocolate Sushi,1133,22.6K,23,374K,1.0,60,10,14.6K,5,
+Chris Jay,363,963K,40,182K,17,35.8K,171,203K,7,
+Cloonee,1.51M,654M,12.8K,180M,873,4.6M,68.1K,308M,8771,
+Coco & Breezy,357K,71.8M,2612,96.6M,360,222K,6215,27.9M,384,
+Colored Craig,,,,,,,,,,Timeout 30000ms exceeded.
+Corey Sizemore,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""a[href*=\""/artist/\""]"").first
+"
+Richie Panic,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""a[href*=\""/artist/\""]"").first
+"
+Craig Connelly,413K,163M,1887,18.4M,492,865K,26.6K,28.9M,9691,
+Crime Family,113,44.1K,N/A,Playlist Reach,N/A,155,96,97.6K,N/A,
+David Guetta&MORTEN,,,,,,,,,,"Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""a[href*=\""/artist/\""]"").first
+"
+Definitive,55.7K,3.87M,284,3.9M,31,7584,111,12.7K,182,
+Delta Heavy,1.19M,542M,5119,38M,536,1.08M,10.6K,42.4M,3790,
+Muzz,350K,304M,4442,26.3M,364,678K,31K,115M,1948,
+Dennis Cruz,932K,216M,6848,49.9M,774,3.06M,26.3K,77.9M,11.1K,
+Derrick Carter,82K,6.58M,991,7.39M,290,234K,2364,15.3M,1472,
+Deyo,2682,302K,54,542K,N/A,402,43,263K,N/A,
+Diamond Dallas Tex,355K,544K,98,434K,4,2015,40,225K,36,
+Diesel,206K,76.1M,713,5.4M,85,253K,1342,679K,3,
+Charles Feelgood,17.3K,642K,66,160K,69,38.1K,122,53.9K,329,
+DJ Heather,3577,297K,87,437K,25,9149,67,69.1K,144,
+DJ Holographic,48.6K,945K,305,3.65M,42,8734,117,180K,80,
