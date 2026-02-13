@@ -48,3 +48,7 @@ Create Features: Calculate the "lag" features (e.g., played_t_minus_1, played_t_
 Train Model: Train on predicting 2025 (using 2022-2024 data).
 Predict 2026: Feed 2022-2025 data to predict 2026.
 * From CoPilot
+
+Area to improve: 
+- How many residencies one artist have? if more than 1 or 2 then penalty => reduce possibility by 40%
+- 
