@@ -49,6 +49,27 @@ Train Model: Train on predicting 2025 (using 2022-2024 data).
 Predict 2026: Feed 2022-2025 data to predict 2026.
 * From CoPilot
 
+1. raw_probability (The Statistical Prediction)
+This is calculated by the Random Forest Classifier model trained in cell 6. It looks at historical patterns to generate a probability between 0 and 1.
+
+The model uses these 8 input features (factors) to determine the score:
+
+played_prev_year: Did they play in 2025? (Strongest predictor usually: if they played last year, they are often less likely to play again due to rotation).
+played_2_years_ago: Did they play in 2024?
+played_3_years_ago: Did they play in 2023?
+total_past_appearances: How many times have they played in total recently? (Frequent flyers are more likely to return).
+consecutive_years: Have they played 2 or 3 years in a row? (High consecutively often lowers probability due to "burnout").
+is_insomniac: Are they managed by Insomniac Records? (Insomniac tends to book their own artists).
+log_followers: How famous are they? (Logarithm of follower count).
+streams: Streaming popularity.
+2. final_probability (The Adjusted Prediction)
+This takes the raw_probability and applies "Business Logic" rules defined in the adjust_score function in cell 7:
+
+Insomniac Boost: If is_insomniac is true, the score is multiplied by 1.3 (+30%).
+Reasoning: The festival organizer favors their own talent.
+Residency Penalty: If the artist has a Vegas Residency (found in 2026_vegas_recidency.csv), the score is multiplied by 0.7 (-30%).
+Reasoning: Exclusive residency contracts often prevent artists from playing nearby festivals.
+
 Area to improve: 
 - How many residencies one artist have? if more than 1 or 2 then penalty => reduce possibility by 40%
 - 
