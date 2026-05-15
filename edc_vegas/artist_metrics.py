@@ -3,12 +3,14 @@ import pandas as pd
 import time
 import random
 import os
+from datetime import datetime
 
 # --- CONFIGURATION ---
 # Get the directory of the current script
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
-output_file = "edc_artist_stats.csv"
+mmyyyy = datetime.now().strftime('%m%Y')
+output_file = os.path.join(script_dir, 'data', 'main', f"edc_artist_stats_{mmyyyy}.csv")
 input_csv = os.path.join(script_dir, 'data', 'main', 'edc_artists_no_duplicates.csv')
 
 # Load artists

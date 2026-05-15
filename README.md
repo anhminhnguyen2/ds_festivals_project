@@ -27,6 +27,15 @@ ds_festivals_project/
 
 ## EDC Vegas — Full Project Walkthrough
 
+### Workflow
+
+1. Scrape new year's lineup → 1.collect_data.ipynb
+2. Run 2.combining_data.ipynb → produces artist_counts_2022_{new_year}.csv
+3. Run artist_metrics.py + 3.clean_dups.ipynb → new stats snapshot
+4. Run 4.merge_csv.ipynb → updated complete dataset
+5. Change current_year in notebook 6 → run it → edc_{year}_prediction.csv
+6. After lineup drops, change current_year in notebook 7 → run it to evaluate
+
 ### Step 1: Data Collection & Web Scraping (`1.collect_data.ipynb`)
 
 Scraped artist names from two source types using **BeautifulSoup** and **Selenium** (headless Chrome for JavaScript-heavy pages):
