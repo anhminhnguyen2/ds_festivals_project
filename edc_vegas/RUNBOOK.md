@@ -12,6 +12,33 @@ There are two loops:
 
 ---
 
+## One-button run
+
+Everything that doesn't need a human at a browser is wrapped in one command:
+
+```
+python run_pipeline.py                # predict the next festival edition
+python run_pipeline.py --year 2027    # predict a specific year
+python run_pipeline.py --skip-data    # reuse existing master, just retrain + predict
+python run_pipeline.py --skip-eval    # skip the evaluation notebook
+```
+
+(macOS: double-clicking `run_pipeline.command` does the same in a Terminal window.)
+
+It runs, in order: notebook 2 (combine lineups) → 3 (clean the latest metrics
+snapshot) → 4 (rebuild the master, including growth features once two snapshots
+exist) → 6 (train + predict, `current_year` set automatically from `--year`) →
+7 (evaluate — failure here is non-fatal, e.g. when the lineup isn't announced
+yet), then prints the top-15 predictions and evaluation metrics.
+
+Before it will run you still need, per target year: the residency CSV
+(`data/extract/{Y}_vegas_recidency.csv` — required, checked up front), the
+producer ranking (optional), and the two interactive scrapes done separately —
+notebook 1 (lineups/rosters, annually) and `artist_metrics.py` (metrics,
+monthly).
+
+---
+
 ## File naming conventions
 
 The notebooks find their inputs by year-based file names. For a target year `{Y}`:
@@ -36,6 +63,10 @@ normalization or names won't join.
 
 Example below uses predicting **EDC 2027**. Do this after the previous festival
 (May) and before the lineup announcement (usually late winter).
+
+> Steps 2–4 and 6–7 are exactly what `run_pipeline.py` automates — they are
+> documented individually here so you know what each one does and can run any
+> step by hand. Steps 1 and 5 stay manual.
 
 ### 1. Scrape the newest completed lineup — `notebook/1.collect_data.ipynb`
 
@@ -161,22 +192,22 @@ so interrupting with Ctrl-C is always safe.
   the fall and the lineup drops in late winter. Snapshots in that window feed
   the features that matter; summer sweeps mostly add baseline.
 
-### Using the snapshots (once ≥ 2 exist)
+### Using the snapshots — automatic
 
-Add growth features in notebook 6's feature-preparation cell, e.g.:
+No manual work needed. Once **two or more cleaned snapshots** exist:
 
-```python
-snap_now = pd.read_csv('../data/metrics_snapshots/artist_stats_2026-10-01.csv')
-snap_old = pd.read_csv('../data/metrics_snapshots/artist_stats_2026-07-01.csv')
-# after cleaning suffixes + normalizing names, per artist:
-# followers_growth_3m = (followers_now - followers_old) / max(followers_old, 1)
-# streams_growth_3m   = (streams_now - streams_old) / max(streams_old, 1)
-```
+1. Notebook 3 cleans the newest raw snapshot (run it, or just run the pipeline
+   script, after each monthly sweep finishes).
+2. Notebook 4 computes `followers_growth` and `streams_growth` from the two
+   most recent cleaned snapshots and writes them into the master dataset.
+3. Notebook 6 picks the growth columns up as model features automatically
+   (they're skipped while they're all zeros, i.e. until real snapshot history
+   exists).
 
-Then add the growth columns to `build_slice()` alongside the other popularity
-features. One caveat to check at that point: growth computed in 2026–2027 is a
-*current* snapshot applied to *historical* training slices (2024/2025 targets),
-so the model sees slightly leaky training values. It's the same approximation
-already made for the static popularity features; once several years of
-snapshots exist, training slices can use growth as it was *before each target
-year*, which removes the approximation.
+So the monthly routine is simply: finish the sweep → `python run_pipeline.py`.
+
+One known approximation: growth measured *now* is applied to *historical*
+training slices (2024/2025 targets), so training values are slightly leaky —
+the same approximation the static popularity features already make. Once
+several years of snapshots exist, `build_slice()` can be upgraded to use growth
+as it was before each target year, which removes the approximation.

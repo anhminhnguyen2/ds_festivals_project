@@ -30,6 +30,8 @@ ds_festivals_project/
 ### Workflow
 
 > 📖 **Detailed guide:** see [`edc_vegas/RUNBOOK.md`](edc_vegas/RUNBOOK.md) for the full year-to-year runbook, file naming conventions, and the recurring metrics-snapshot process.
+>
+> ⚡ **One-button run:** `python edc_vegas/run_pipeline.py` executes steps 2–7 end to end (or double-click `run_pipeline.command` on macOS). Only the interactive scrapes (step 1 and `artist_metrics.py`) stay manual.
 
 1. Scrape new year's lineup → 1.collect_data.ipynb
 2. Run 2.combining_data.ipynb → produces artist_counts_2022_{new_year}.csv
