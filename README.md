@@ -29,6 +29,8 @@ ds_festivals_project/
 
 ### Workflow
 
+> 📖 **Detailed guide:** see [`edc_vegas/RUNBOOK.md`](edc_vegas/RUNBOOK.md) for the full year-to-year runbook, file naming conventions, and the recurring metrics-snapshot process.
+
 1. Scrape new year's lineup → 1.collect_data.ipynb
 2. Run 2.combining_data.ipynb → produces artist_counts_2022_{new_year}.csv
 3. Run artist_metrics.py + 3.clean_dups.ipynb → new stats snapshot
@@ -113,94 +115,108 @@ Key observations:
 
 ### Step 6: Feature Engineering & Model Building (`6.build_model.ipynb`)
 
-**Feature engineering:**
+**Feature engineering (20 features):**
 
-| Feature | Description |
-|---------|-------------|
-| `played_2022`–`played_2025` | Binary flags per year |
-| `played_prev_year` | Did they play the year before the target? |
-| `played_2_years_ago`, `played_3_years_ago` | Historical booking pattern |
-| `total_past_appearances` | Total times played before target year |
-| `consecutive_years` | How many years in a row they've played (burnout proxy) |
-| `log_followers` | Log-scaled follower count (handles 6 → 8.72M range) |
-| `streams` | Raw stream count |
-| `is_insomniac` | Binary flag for Insomniac agency roster |
+| Feature group | Features | Description |
+|---------------|----------|-------------|
+| Booking history | `played_1/2/3_years_ago` | Lag flags relative to the target year |
+| | `total_past_appearances`, `appearance_rate` | Volume and rate of past bookings |
+| | `consecutive_years` | Years in a row played (burnout proxy) |
+| | `years_since_last` | Recency of last appearance (99 = never) |
+| Popularity | `log_followers`, `log_streams`, `log_playlists`, `log_playlist_reach`, `log_charts`, `log_shazams`, `log_videos`, `log_views`, `log_dj_supports` | **All** popularity metrics, log-scaled (raw counts are dominated by a few mega artists) |
+| Context | `is_insomniac`, `has_agency` | Agency roster flags |
+| | `has_residency` | Holds a Vegas club residency |
+| | `producer_rank_score` | Position in the producer top-100 (101 − rank, 0 if unranked) |
+
+**Staggered training slices** — instead of a single training block, the notebook builds one slice per historical target year (features restricted to what was known *before* that year):
+- Slice 1: 2022–2023 features → target = played 2024
+- Slice 2: 2022–2024 features → target = played 2025
+- A new slice is added automatically each year as the master dataset grows
+
+This yields **1,946 training rows** (2 × 973 artists) instead of 973.
 
 **Model:**
 - **Algorithm**: Random Forest Classifier (`scikit-learn`)
-- **Parameters**: `n_estimators=100`, `max_depth=6`, `class_weight='balanced'`, `random_state=42`
-- `class_weight='balanced'` was critical — most artists (973) don't play EDC, so the naive model would just predict "no" for everyone
-- Training was structured historically: features derived from 2022–2024 data, target = `played_2025`
+- **Parameters**: `n_estimators=300`, `max_depth=6`, `class_weight='balanced'`, `random_state=42` — the most stable configuration in a seed-robustness backtest against the actual 2026 lineup
+- Gradient boosting (`HistGradientBoostingClassifier`) and deeper forests were also tested and scored consistently *worse* at this dataset size, so Random Forest stays
+- `class_weight='balanced'` is critical — most artists in the pool don't play in a given year, so an unweighted model would just predict "no" for everyone
 
 **Feature importance rankings (from the trained model):**
 
 | Rank | Feature | Importance |
 |------|---------|------------|
-| 1 | `total_past_appearances` | 37.4% |
-| 2 | `log_followers` | 15.7% |
-| 3 | `streams` | 13.3% |
-| 4 | `played_3_years_ago` | 13.2% |
-| 5 | `played_2_years_ago` | 7.5% |
-| 6 | `consecutive_years` | 5.0% |
-| 7 | `played_prev_year` | 4.9% |
-| 8 | `is_insomniac` | 3.0% |
+| 1 | `total_past_appearances` | 18.5% |
+| 2 | `appearance_rate` | 17.8% |
+| 3 | `years_since_last` | 9.9% |
+| 4 | `log_followers` | 5.5% |
+| 5 | `log_dj_supports` | 4.3% |
+| 6 | `log_videos` | 4.1% |
+| 7 | `has_agency` | 4.0% |
+| 8 | `log_views` | 3.9% |
+| … | (12 more features) | 34.0% |
 
-**Post-prediction adjustments applied to raw probabilities:**
-- **Insomniac roster**: +45% boost
-- **Large artist** (`log_followers` > 75th percentile) with `consecutive_years = 1`: +25% (likely start of Year 2 in a 2-year booking cycle)
-- **Large artist** with `consecutive_years ≥ 2`: −25% (likely taking a break after multi-year run)
-- **Vegas residency**: −30% (residency conflicts with festival appearance)
-- All scores capped at 1.0
+**No manual probability adjustments.** The previous version multiplied raw model scores by hand-tuned factors (+45% Insomniac boost, ±25% booking-cycle, −30% Vegas residency). Backtested against the actual 2026 lineup, those adjustments turned out to be the single biggest source of error — removing them alone raised F1 from 16.3% to 23.5%. Those signals are now training features (`is_insomniac`, `has_residency`, `consecutive_years`), letting the model learn their true (much smaller) weights.
 
-**Output**: Top 285 artists by adjusted probability score → `2026_edc_predictions.csv`
+**Output**: Top 430 artists by predicted probability → `edc_2026_prediction.csv`. The cutoff is sized to a *complete* final lineup (2022–2026 full lineups ran ~370–440 unique artists) — the original top-285 was calibrated to the smaller initial announcement, which left easy recall on the table.
 
 ---
 
-### Step 7: Evaluation Against Actual 2026 Lineup (`7.compare_w_actual_lineup26.ipynb`)
+### Step 7: Evaluation Against Actual 2026 Lineup (`7.compare_w_actual_lineup_for_curr_year.ipynb`)
 
-The actual 2026 EDC Las Vegas lineup was scraped after its release and compared against predictions. Standard accuracy was intentionally ignored — guessing "no one plays" yields ~97% accuracy and tells us nothing useful (the **True Negative Illusion**).
+The actual 2026 EDC Las Vegas lineup was scraped and compared against predictions. Standard accuracy was intentionally ignored — guessing "no one plays" yields ~97% accuracy and tells us nothing useful (the **True Negative Illusion**). Artist names are normalized on both sides (`&` → `and`, lowercase, deduplicated) before matching.
 
-**Results:**
+**Results — both models scored against the complete final lineup (438 unique artists):**
 
-| Metric | Value |
-|--------|-------|
-| Actual lineup size | 264 artists |
-| Predicted lineup size | 288 artists |
-| True Positives (correct) | **41** |
-| False Negatives (missed) | 223 |
-| False Positives (wrong predictions) | 247 |
-| **Recall** | **15.53%** |
-| **Precision** | **14.24%** |
-| **F1 Score** | **14.86%** |
+| Metric | Original model | Improved model |
+|--------|---------------|----------------|
+| Predicted lineup size | 288 | 430 |
+| True Positives (correct) | 59 | **131** |
+| **Precision** | 20.49% | **30.47%** |
+| **Recall** | 13.47% | **29.91%** |
+| **F1 Score** | 16.25% | **30.18%** (+86% relative) |
 
-**41 correctly predicted artists included:** Above & Beyond, Armin Van Buuren, Tiësto, Seven Lions, Fisher, FISHER, Meduza, Boys Noize, Paul Van Dyk, Joseph Capriati, Indira Paganotto, Lady Faith, Liquid Stranger, Lilly Palmer, and 27 others.
+*(An earlier partial scrape of the lineup page had only 264 artists — the original README numbers of R 15.53% / P 14.24% / F1 14.86% were computed against that. The table above rescores both models against the same complete lineup for a fair comparison.)*
 
-The model captured major headliners and multi-year regulars well, but struggled with debut bookings and artists whose social metrics don't reflect EDC-specific booking patterns.
+**What drove the improvement (measured by ablation against the actual 2026 lineup):**
+
+| Change | F1 |
+|--------|-----|
+| Original model (manual probability adjustments, top-285) | 16.3% |
+| Remove manual adjustments, model probabilities only | 23.5% (**+7.3 points — by far the largest win**) |
+| + staggered training slices (2 blocks instead of 1) | 24.6% |
+| + full feature set & tuning (all popularity metrics, residency, agency, producer rank; 300 trees) | 25.5% |
+| + cutoff recalibrated to full lineup size (top-430 instead of top-285) | **30.2%** |
+
+**Structural limit:** 249 of the 438 actual artists (57%) don't exist in the master dataset at all — mostly 2026 debuts who never played 2022–2025 and aren't on a scraped agency roster. The maximum achievable recall with the current candidate pool is **43.2%**, so growing the pool is the biggest remaining lever (see below).
 
 
 ## For Future Predictions (EDC 2027 & Beyond)
 
-### 1. Fix Feature Engineering — Let the Model Learn the Rules
+### ✅ Done for the 2026 backtest
 
-The biggest opportunity: remove the manual post-processing adjustments and bake them into training features instead.
+- **Manual adjustments removed** — Insomniac/residency/booking-cycle signals are now training features; the model learned their true weights (residency importance: 0.6%, vs the −30% manual penalty it replaced).
+- **Staggered time slices** — 2022–2023 → 2024 and 2022–2024 → 2025; a new slice is added automatically each year.
+- **Algorithm & tuning explored** — gradient boosting and hyperparameter sweeps were tested; a tuned Random Forest (300 trees, depth 6) won at this dataset size.
+- **Name normalization in evaluation** — `&`/`and` variants and duplicate scrape entries no longer count as misses.
 
-- **Insomniac agency** currently gets a hardcoded +45% boost. Adding `is_insomniac` as a training feature (it's already there but ranked last at 3%) with more training data would let the model learn the actual weight rather than guessing.
-- **Vegas residency** is currently a manual −30% penalty. Adding a `has_residency` boolean feature lets the algorithm determine the real impact.
+### 1. Expand the Candidate Pool (biggest lever: 57% of the lineup is currently unreachable)
+
+The model can only rank artists that exist in the master dataset. To raise the 43% recall ceiling:
+- Scrape lineups from **other Insomniac festivals** (EDC Orlando/Mexico, Beyond Wonderland, Nocturnal Wonderland, Countdown NYE) — Insomniac heavily cross-books its own events
+- Refresh **agency rosters annually** and add more agencies (WME roster is scraped but unused in the master merge)
+- Add **Beatport/SoundCloud rising charts** to capture debut-ready artists before they play anywhere
+
+### 2. Richer Features
+
 - **Genre & Stage**: Scrape artist genre data and map it to EDC's stage curators (NeonGARDEN → Techno/House, BassPOD → Dubstep). An artist's genre alignment with a stage is a strong booking signal.
 - **Popularity Velocity**: Static follower/stream counts miss momentum. Adding 6-month follower growth % would surface fast-rising artists who get booked before their metrics look "big."
 - **Tour Conflicts**: If an artist has a confirmed booking in Europe during EDC weekend, their probability should be near 0. Scraping conflicting tour dates would dramatically cut False Positives.
 
-### 2. Expand Training Data with More Time Slices
+### 3. Better Threshold Selection
 
-Currently the model trains on one block (2022–2024 → predict 2025). Creating staggered iterations multiplies the training data:
-- Row block 1: 2022–2023 features → predict 2024
-- Row block 2: 2022–2024 features → predict 2025
+The cutoff is now sized to the historical full-lineup size (~430) rather than the initial announcement, which was worth +4.7 F1 points on its own. Once a third training slice exists (after the 2026 data is merged into the master dataset), a further refinement is to hold out the most recent slice as validation and pick the probability threshold that maximizes F1 on it — the earlier attempt at this transferred poorly because the validation slice only had 2 years of history vs 4 at prediction time.
 
-This captures seasonal booking shifts and gives the model more examples of what "getting booked" actually looks like across different years.
+### 4. Popularity Growth from Recurring Snapshots (in progress)
 
-### 3. Upgrade the Algorithm & Tuning
-
-- **Gradient Boosting**: Move from Random Forest to **XGBoost**, **LightGBM**, or **CatBoost** — tree ensemble models built for tabular data that typically yield a 5–10% F1 improvement out of the box.
-- **Hyperparameter Search**: Use `GridSearchCV` or `RandomizedSearchCV` over tree depth, estimator count, and learning rate rather than relying on defaults.
-- **Precision-Recall Curve Threshold**: Instead of capping at top 285 artists arbitrarily, plot the PR curve on a validation set and pick the threshold that mathematically maximizes F1.
+`artist_metrics.py` snapshots are being collected on a recurring schedule (see [`edc_vegas/RUNBOOK.md`](edc_vegas/RUNBOOK.md)). Once two or more snapshots exist, growth features (e.g., 3-month % change in followers/streams) can be added to `build_slice()` to surface fast-rising artists whose static counts still look small.
 

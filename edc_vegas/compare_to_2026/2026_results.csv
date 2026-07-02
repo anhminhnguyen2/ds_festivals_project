@@ -1,289 +1,439 @@
 actual_lineup,predicted_lineup,actual_in_predicted,predicted_in_actual
-1991,decoder,True,False
-999999999,space 92,False,False
-a.m.c,big gigantic,False,False
-mc phantom,declan james,False,False
-abana,james hype,False,False
-juliet mendoza,odd mob,False,False
-above & beyond,trouble,True,False
-adiel,d-sturb,False,False
-adrián mills,lil texas,False,True
-adriatique,loco & jam,False,False
-adventure club,chapter & verse,True,False
-æon:mode,pls&ty,False,False
-ahee,bones,False,False
-liquid stranger,soren,True,False
-ahmed spins,tiësto,False,True
-alison wonderland,wade,False,False
-alves,tom & collins,False,False
-alyssa jolee,oden & fatzo,False,False
-anastazja,danny avila,False,False
-andrew rayel,baggi,True,False
-anna,walker & royce,False,True
-ar/co,deborah de luca,False,False
-argy,coco & breezy,True,False
-armin van buuren,xijaro & pitch,True,False
-astrix,gabriel & dresden,False,False
-atliens,blunts & blondes,False,False
-audiofreq,lady faith,False,True
-code black,bunny,False,False
-toneshifterz,marc v,False,False
-avalon emerson,vini vici,False,False
-avello,giuseppe ottaviani,False,False
-dennett,castor & pollux,False,False
-bad boombox,bicep,False,False
-ollie lishman,aly & fila,False,False
-bashkka,kaysin,False,False
-sedef adasï,tim clark,False,False
-baugruppe90,cat dealers,False,False
-beltran,neon deluz,False,False
-beltran,doctor p,False,True
-simas,yoshi & razner,False,False
-benwal,chase & status,False,False
-billy gillies,level up,False,True
-black tiger sex machine,soul purpose,False,False
-bolo,marlo,False,False
-boogie t,celo,False,False
-distinct motive,roadhouse,False,False
-bou,eli brown,False,True
-boys noize,aaron k,True,False
-bullet tooth,assembly,False,False
-bunt.,vari,False,False
-the carry nation,lilly palmer,False,True
-cassian,headhunterz,False,False
-the chainsmokers,hugel,False,False
-charlotte de witte,mat zo,False,False
-chris lorenzo,k.gianni,False,False
-chris stussy,tale of us,False,False
-cid,armin van buuren,False,True
-clawz,radical redemption,False,False
-cloonee,jessica audiffred,False,False
-cloudy,mike posner,False,False
-club angel,armnhmr,False,False
-cold blue,wildstylez,False,False
-confidence man,mesa & boss,False,False
-cosmic gate,ben böhmer,False,False
-cristoph,lucky lou,False,False
-culture shock,imanbek,False,False
-cutdwn,angerfist,True,False
-cyclops,zomboy,False,False
-da tweekaz,noizu,False,True
-dabin,gem & tauri,False,False
-darren porter,svdden death,False,False
-darude,interplanetary criminal,False,True
-dead x,discrete,True,False
-deathpact,malcolm zeller,False,False
-delta heavy,bear grillz,True,False
-discip,skepta,False,False
-dj gigola,4b,False,False
-dj isaac,adam beyer,False,False
-dj mandy,darren styles,False,False
-dj tennis,damon sharpe,False,False
-chloé caillet,metta & glyde,False,False
-dj tennis,paul oakenfold,False,True
-red axes,adrenalize,False,False
-doctor p,alok,True,False
-flux pavilion,autograf,False,False
-funtcase,boys noize,False,True
-dømina,macky gee,False,False
-dreya v,blond:ish,False,False
-dyen,good times ahead,False,False
-eazybaked,pocket,False,False
-eli & fur,virtual riot,False,True
-eli brown,kayzo,True,False
-eptic,levenkhan,False,False
-space laces,dead x,False,True
-fallen&dknow (mc dino),skream,False,True
-fisher,afrojack,True,False
-frankie bones,ganja white night,False,False
-frost children,tokimonsta,False,False
-funk tribu,blklght,False,False
-gareth emery,dj mad dog,False,False
-getter,restricted,False,True
-ghengar,korsky,False,False
-gorillat,riot ten,False,False
-gravagerz,fireworks,False,False
-gravedgr,oguz,False,False
-griz,lee foss,False,False
-wooli,indira paganotto,False,True
-haai,adventure club,False,True
-luke alessi,ky william,False,False
-hamdi,jai wolf,False,False
-hannah laing,matt steffanina,False,False
-hardwell,alesso,False,False
-hayla,carl craig,False,False
-heidi lawden,ferry corsten,False,False
-masha mar,seven lions,False,True
-heyz,felix da housecat,False,False
-hntr,the archer,False,False
-hol!,marlon hoffstadt,False,False
-holy priest,silcrow,False,False
-hybrid minds,delta heavy,True,True
-i hate models,joseph capriati,True,True
-ilan bluestone,maz,True,False
-indira paganotto,rusko,True,False
-infekt,i hate models,False,True
-samplifire,nitti,False,False
-innellea,brdwy,False,False
-interplanetary criminal,sub focus,True,True
-isabella,renegade system,False,False
-jackie hollander,colored craig,False,False
-john summit,four tet,False,False
-joseph capriati,yoji biomehanika,True,False
-josh baker,tnt,False,False
-kai wachi,one true god,False,False
-kaskade,andrew rayel,False,True
-kettama,derrick carter,False,False
-kevin de vries,hybrid minds,False,True
-ki/ki,taylor kade,False,False
-kinahau,duck sauce,False,False
-klangkuenstler,tempo giusto,False,False
-klo,mija,False,False
-korolova,nora en pure,False,False
-kream,brutalismus 3000,True,False
-kuko,slippy,False,False
-johannes schuster,wenzday,False,False
-lady faith,gibson parker,True,False
-lny tnz,truth x lies,True,False
-laidback luke,schala,False,False
-chuckie,on deck,False,False
-layton giordani,hush,False,False
-level up,lny tnz,True,True
-levity,burko,False,False
-lil texas,lucati,True,False
-lilly palmer,no thanks,True,False
-linska,helloworld,False,False
-lu.re,john o'callaghan,False,False
-luciano,eddie,False,False
-luke dean,rad cat,False,False
-luuk van dijk,skye,False,False
-maddix,morgin madison,False,False
-malugi,victor ruiz,False,False
-maria healy,renato s,False,False
-martin garrix,yolanda be cool,False,False
-mary droppinz,evol intent,False,False
-massano,nico moreno,False,True
-massimiliano pagliara,lp giobbi,False,False
-mathame,morpei,False,False
-matty ralph,dena,False,False
-max dean,uniiqu3,False,False
-mcr-t,fantom freq,False,False
-meduza,lāsh,True,False
-mëstiza,honey dijon,False,False
-mink,telykast,False,False
-mish,talon,False,False
-morgan seatree,blastoyz,False,False
-mph,so tuff so cute,False,False
-murphy's law,nitepunk,False,False
-muzz,jawns,True,False
-nico moreno,moore kismet,True,False
-nightstalker&dknow (mc dino),swage,False,False
-noizu,onyvaa,True,False
-nostalgix,avision,False,False
-notion,warface,False,True
-obskür,bombays,False,False
-omar+,anfisa letyago,False,False
-omnom,definitive,False,False
-the outlaw,veggi,False,False
-paramida,testpilot,False,False
-paul oakenfold,matthias,True,False
-paul van dyk,knock2,True,False
-peekaboo,harry romero,False,False
-pegassi,kx5,False,False
-peggy gou,dot,False,False
-player dave,craze,False,False
-porter robinson,lizdek,False,False
-the prodigy,jason ross,False,False
-prospa,dustycloud,False,False
-the purge,longstoryshort,False,False
-ray volpe,julienne by,False,False
-rebekah,marques wyatt,False,False
-rebūke,above & beyond,False,True
-restricted,shaded,True,False
-riot,svnf8,False,False
-rob gee,meduza,False,True
-lenny dee,alyx ander,False,False
-roddy lima,lupa,False,False
-rooler,purple,False,False
-røz,dvrko,False,False
-the saints,lf system,False,False
-salute,madeon,False,False
-chloé caillet,chris jay,False,False
-sama' abdulhadi,roswell,False,False
-sammy virji,volac,False,False
-san holo,dj holographic,False,False
-san pacho,andre power,False,False
-sarah de warren,black v neck,False,False
-serafina,diamond dallas tex,False,False
-seven lions,charles feelgood,True,False
-shingo nakamura,skonka,False,False
-ship wrek,k?d,False,False
-sidney charles,ruben de ronde,False,False
-bushbaby,ilan bluestone,False,True
-sihk,jayda g,False,False
-silva bumpa,fjaak,False,False
-silvie loto,karaba,False,False
-sippy,infected mushroom,False,False
-skream,mark farina,True,False
-slamm,boston bun,False,False
-slugg,baby weight,False,False
-snow strippers,disco dom,False,False
-sofi tukker,cutdwn,False,True
-solomun,trickstar,False,False
-spray,carl cox,False,False
-stacy christine,evan giia,False,False
-stan christ,wuki,False,False
-steve aoki,diesel,False,False
-sub focus,qrion,True,False
-sub zero project,skemaddox,True,False
-subtronics,alix perez,False,False
-superstrings,bijou,False,False
-t78,atb,False,False
-thomas schumacher,grimes,False,False
-tiësto,da capo,True,False
-tiga,gene farris,False,False
-tinlicker,matt faulk,False,False
-toman,nekter,False,False
-trace,eprom,False,False
-underworld,dennis cruz,False,False
-vieze asbak,craig connelly,False,False
-vintage culture,armand van helden,False,False
-viperactive,cat & maomi,False,False
-virtual riot,anatta,True,False
-vtss,kream,False,True
-walker & royce,ann clue,True,False
-vnssa,crime family,False,False
-warface,piques,True,False
-warung,danyelino,False,False
-wax motif,anime,False,False
-westend,no mana,False,False
-whethan,1991,False,True
-william black,kanine,False,False
-wooli,liquid stranger,False,True
-ydg,deyo,False,False
-yosuf,dj heather,False,False
-zedd,lostly,False,False
-,g jones,False,False
-,paul van dyk,False,True
-,kromi,False,False
-,alexandar smash,False,False
-,fisher,False,True
-,€uro tra$h,False,False
-,argy,False,True
-,echod,False,False
-,blake webber,False,False
-,alan walker,False,False
-,a-trak,False,False
-,muzz,False,True
-,lost frequencies,False,False
-,apashe,False,False
-,khromata,False,False
-,sub zero project,False,True
-,chocolate sushi,False,False
-,kwon,False,False
-,jamie jones,False,False
-,omri.,False,False
-,niles shepard,False,False
-,stanley kubrix,False,False
-,wave point,False,False
-,eric mark,False,False
+$ami g,1991,False,True
+1991,2ar,True,False
+2b happy,33 below,False,False
+2dy4,4b,False,False
+999999999,a shade of black,False,False
+99jakes,a-trak,False,False
+a.m.c,aaron k,False,True
+aaron k,acraze,True,False
+abana,adam beyer,False,False
+above and beyond,adam ten,False,False
+adiel,adrenalize,False,False
+adriatique,adventure club,False,True
+adrián mills,afrojack,False,False
+adventure club,ahmed spins,True,True
+ahee,airrica,False,False
+ahmed spins,alan walker,True,False
+airglo,alesso,False,False
+aj ball,alex chapman,False,False
+ak1200,alison wonderland,False,True
+alison wonderland,allenora,True,False
+alpha 9,alleycvt,False,False
+alves,alok,True,False
+alyssa jolee,alves,False,True
+anastazja,aly and fila,False,False
+andrew rayel,amal nemer,True,False
+androcided,amelie lens,False,False
+anna,anatta,False,False
+apx1,andrew bayer,False,False
+ar/co,andrew rayel,False,True
+argy,andromedik,True,False
+armin van buuren,anfisa letyago,True,False
+armnhmr,angel cannon,True,False
+ashley walls,angerfist,False,False
+assembly,anime,True,False
+atliens,anoluxx,True,False
+audiofreq,apashe,False,False
+avalon emerson,aqutie,False,False
+avello,argy,False,True
+bad ash,armand van helden,False,False
+bad beat,armin van buuren,False,True
+bad boombox,armnhmr,False,True
+bashkka,artbat,False,False
+baugruppe90,assembly,False,True
+beltran,atb,False,False
+benni ola,atliens,False,True
+benwal,audien,False,False
+billy gillies,ayybo,True,False
+black tiger sex machine,baggi,True,False
+bolo,basstripper,False,False
+boogie t,ben böhmer,False,False
+bou,ben hemsley,True,False
+boys noize,ben nicky,True,False
+brosa,ben sterling,False,False
+bullet tooth,benny benassi,False,False
+bunt.,bicep,False,False
+bushbaby,big gigantic,False,False
+caiiro,billy gillies,False,True
+canary yellow,biscits,False,False
+cardo,black tiger sex machine,False,True
+carneyval,blastoyz,False,False
+cassian,blklght,True,False
+castor and pollux,blond:ish,True,False
+cc love,blunts and blondes,False,False
+charles feelgood,bones,False,False
+charlotte de witte,borgore,True,False
+chassi,boris brejcha,False,False
+chibs,bou,False,True
+chloé caillet,boys noize,False,True
+chris lorenzo,brennan heart,True,False
+chris metcalfe,brody jenner,False,False
+chris stussy,brutalismus 3000,False,False
+chuckie,bryan matthew,False,False
+cid,bunny,True,False
+clawz,caleb dent,True,False
+cloonee,calussa,True,False
+close friends only,caravel,False,False
+cloudy,carl cox,False,False
+club angel,carlita,False,False
+code black,caspa,False,False
+cold blue,cassian,False,True
+connor q,castor and pollux,False,True
+cosmic gate,cat and maomi,True,False
+cristoph,cat dealers,True,False
+crs?,celo,False,False
+culture shock,champion,False,False
+cutdwn,charlotte de witte,True,True
+cyclops,chase and status,False,False
+da tweekaz,chris lake,True,False
+dabin,chris lorenzo,True,True
+damon sharpe,chyl,True,False
+danni g,cid,False,True
+danny the wildchild,clara cuvé,False,False
+darren porter,classmatic,False,False
+darude,clawz,False,True
+dazy duke,cloonee,False,True
+dead x,coco and breezy,True,False
+delta heavy,cole knight,True,False
+demigod,cosmic gate,False,True
+dena,country night,True,False
+dennett,crankdat,False,False
+descendants,creeds,False,False
+dip vertigo,cristoph,False,True
+dirty audio,cutdwn,False,True
+discip,d-sturb,False,False
+discovery project,da capo,False,False
+disko cowboy,da tweekaz,False,True
+distinct motive,dabin,True,True
+dj exile,damon sharpe,False,True
+dj flapjack,danny avila,False,False
+dj flite,darren styles,False,False
+dj gigola,david forbes,True,False
+dj isaac,david guetta,False,False
+dj mandy,dea magna,False,False
+dj tennis,dead x,False,True
+doctor p,deadmau5,False,False
+donald glaude,death code,False,False
+dono smith,deborah de luca,False,False
+doozie,declan james,True,False
+dramos,decoder,False,False
+dreya v,delta heavy,False,True
+dyen,dena,False,True
+dømina,dennis cruz,False,False
+eazybaked,dennis ferrer,False,False
+eli and fur,deorro,False,False
+eli brown,devault,True,False
+eli fola,devin wild,True,False
+eptic,dillon francis,False,False
+eric davenport,dimension,False,False
+eric dlux,diplo,False,False
+ero808,disco dom,False,False
+espii,disco lines,False,False
+eve lauren,discrete,False,False
+falko,distinct motive,False,True
+fallen,dj fuckoff,False,False
+fallenanddknow (mc dino),dj gigola,False,True
+festerandoscureandthee-o,dj snake,False,False
+fireworks,dom dolla,True,False
+fisher,dombresky,True,False
+floyd lavine,doozie,False,True
+fluttershy,drinkurwater,False,False
+flux pavilion,dual damage,False,False
+frankie bones,duck sauce,False,False
+frost children,duke dumont,False,False
+funk tribu,dylan brady,True,False
+funtcase,elephante,False,False
+fury,eli brown,True,True
+gareth emery,eli fola,True,True
+getter,eliminate,True,False
+ghengar,emo nite,False,False
+gl00m13,eric prydz,False,False
+gold lemonade,excision,False,False
+gorillat,fcukers,False,False
+goshfather,ferry corsten,False,False
+grant fisher,fireworks,False,True
+gravagerz,fisher,False,True
+gravedgr,four tet,True,False
+griz,francis mercier,True,False
+guari,funk tribu,False,True
+gusta,fury,False,True
+haai,gabriel and dresden,True,False
+hamdi,galantis,True,False
+hannah laing,ganja white night,True,False
+hardwell,gareth emery,False,True
+hartshorn,gem and tauri,False,False
+hayla,geo,False,False
+heidi lawden,gesaffelstein,False,False
+heyz,getter,False,True
+hixxy,giuseppe ottaviani,False,False
+hntr,good times ahead,False,False
+hol!,gorgon city,False,False
+holy priest,gravedgr,False,True
+hybrid minds,green velvet,True,False
+i hate models,grimes,True,False
+ilan bluestone,griz,False,True
+indira paganotto,gryffin,True,False
+infekt,haai,True,True
+innellea,habstrakt,False,False
+inspektor gadjet,hamdi,False,True
+interplanetary criminal,hannah laing,True,True
+isabella,hanz,False,False
+j patron,haylee wood,False,False
+j. splat,headhunterz,False,False
+jackie hollander,hedex,True,False
+jared jackson,hex cougar,False,False
+jem.g,hi-lo,False,False
+jfuse,honey dijon,False,False
+jimni cricket,honeyluv,False,False
+joey g,horsegiirl,False,False
+johannes schuster,hot since 82,False,False
+john price,hugel,False,False
+john summit,hybrid minds,True,True
+jon bishop,i hate models,False,True
+joseph capriati,illenium,True,False
+josh baker,indira paganotto,True,True
+jruiz,infected mushroom,False,False
+juliet mendoza,infekt,False,True
+juos,inigma,False,False
+just.shaun,interplanetary criminal,False,True
+justin hawkes,invt,False,False
+justus,inzo,False,False
+kai wachi,isoxo,True,False
+kaskade,it's murph,True,False
+kb da dj,jackie hollander,False,True
+kelland,jai wolf,False,False
+kendo,james hype,False,False
+kettama,jamie jones,True,False
+kevin de vries,jauz,True,False
+ki/ki,jessica audiffred,False,False
+kimmycat,joel corry,False,False
+kinahau,john summit,False,True
+klangkuenstler,jon casey,False,False
+klo,joseph capriati,False,True
+koji aiken,josh baker,False,True
+korolova,junkie kid,True,False
+kream,k.gianni,True,False
+kuko,kai wachi,False,True
+kuta,kami,False,False
+kygore,kasablanca,False,False
+lady faith,kaskade,True,True
+lady sinclair,kaysin,True,False
+laidback luke,kayzo,False,False
+layton giordani,kettama,True,True
+lenny dee,kevin de vries,False,True
+level up,kian,True,False
+levity,kieran san jose,True,False
+lexxy jax,kilimanjaro,False,False
+lil texas,kitty amor,True,False
+lilly palmer,knock2,True,False
+linney,kompany,False,False
+linska,korolova,True,True
+liquid stranger,koven,True,False
+lny tnz,kream,False,True
+louis love,kromi,False,False
+love2hate,ky william,False,False
+lu.re,lady faith,False,True
+luciano,lady sinclair,False,True
+lucky lou,lane 8,True,False
+lucky rabbit,lauren mia,False,False
+luke alessi,layton giordani,False,True
+luke alexander,layz,False,False
+luke dean,le youth,False,False
+luuk van dijk,level up,False,True
+machete,levenkhan,False,False
+maddix,levity,True,True
+madds,lf system,False,False
+madgrrl,lil texas,False,True
+malugi,lilly palmer,True,True
+marc v,linska,True,True
+mark e quark,liquid stranger,False,True
+mark lewis,lizdek,False,False
+mars,loco dice,False,False
+martin garrix,lost frequencies,True,False
+mary droppinz,loud luxury,False,False
+masha mar,lp giobbi,True,False
+massano,lsdream,False,False
+massimiliano pagliara,lucky lou,False,True
+mateezy,maddix,False,True
+mathame,madeon,False,False
+matt faulk,majestic,True,False
+mattilo,malaa,True,False
+matty ralph,malcolm zeller,False,False
+max dean,malugi,False,True
+max low,marc v,False,True
+mc phantom,marie vaunt,False,False
+mcr-t,marlon hoffstadt,True,False
+meduza,marsh,True,False
+meedy,marshmello,False,False
+mellinfunk,martin garrix,False,True
+mer bear,masha mar,True,True
+micah martin,matroda,False,False
+mink,matt faulk,False,True
+mish,matt sassari,True,False
+moonpup,mattilo,False,True
+morgan seatree,mau p,False,False
+mph,max styler,True,False
+mr deeds,maz,False,False
+mtk,mcr-t,False,True
+murphy's law,meduza,False,True
+muzz,mer bear,True,True
+muñequita,mesa and boss,False,False
+mëstiza,mike posner,False,False
+n0where g1rl,mish,False,True
+nativesun,miss monique,False,False
+nekter,mitis,False,False
+neon deluz,miyuki,True,False
+nerz,mk,False,False
+nico moreno,mochakk,True,False
+nightstalker,moonlght,False,False
+nightstalkeranddknow (mc dino),morten,False,False
+noizu,mph,True,True
+nostalgix,muzz,False,True
+not not,myles o'neal,False,False
+notion,neon deluz,False,True
+nxsty,netsky,False,False
+obskür,nghtmre,False,False
+odd language,nico moreno,True,True
+off in lala,nitti,False,False
+okayval,noizu,False,True
+ollie lishman,nora en pure,False,False
+omar+,odd language,False,True
+omnom,odd mob,True,False
+paramida,oddly godly,False,False
+paul oakenfold,oden and fatzo,True,False
+paul van dyk,of the trees,True,False
+peekaboo,oguz,False,False
+pegassi,omnom,False,True
+peggy gou,omri.,True,False
+phnx,oppidan,False,False
+pizzi,partiboi69,False,False
+player dave,paul oakenfold,False,True
+plsandty,paul van dyk,True,True
+polar bears,peggy gou,False,True
+porter robinson,plsandty,True,True
+prospa,pocket,True,False
+puking spice latte,porter robinson,False,True
+punky brewstar,prospa,False,True
+r.a.w.,purple disco machine,False,False
+raje,raecola,False,False
+ray volpe,ray volpe,True,True
+rebekah,recess,False,False
+rebūke,restricted,False,True
+red axes,reza,False,False
+reid speed,rezz,False,False
+restricted,ricky retro,True,False
+riot,riordan,False,False
+roadhouse,riot ten,True,False
+rob gee,rl grime,False,False
+robert hood,roadhouse,False,True
+roddy lima,rooler,False,True
+rohaan,rossi.,False,False
+rommii,rudimental,False,False
+ron d core,rusko,False,False
+rooler,rzrkt,True,False
+roxy ferrari,said the sky,False,False
+røz,samplifire,False,True
+sabine blaizin,san holo,False,True
+salute,san pacho,False,True
+sammy virji,sara landry,False,False
+samplifire,sarah de warren,True,True
+samson,sarz,False,False
+san holo,seven lions,True,True
+san pacho,shaded,True,False
+sarah de warren,ship wrek,True,True
+scooba,shlømo,False,False
+sedef adasï,showtek,False,False
+serafina,sidepiece,False,False
+seven lions,sihk,True,True
+shingo nakamura,silcrow,False,False
+ship wrek,simula,True,False
+sidney charles,skepta,False,False
+sihk,skream,True,True
+silva bumpa,slander,False,False
+silver panda,slugg,False,True
+silvie loto,sofi tukker,False,True
+simas,sonny fodera,False,False
+simon apex,soothslayer,False,False
+sippy,soren,False,False
+sisto,sosa,False,False
+skanka,sota,False,False
+skibkid,soul purpose,False,False
+skilah,sound rush,False,False
+skream,southstar,True,False
+slamm,space 92,False,False
+slim mcgraw,steller,False,False
+slugg,steve aoki,True,True
+snow strippers,sub focus,False,True
+sofi tukker,sub zero project,True,True
+solomun,subtronics,False,True
+sommer ray,sullivan king,False,False
+soraya,sultan + shepard,False,False
+soso drü,svdden death,False,False
+space laces,tale of us,False,False
+spray,tape b,False,False
+sqishi,taylor kade,False,True
+stacy christine,tchami,False,False
+stan christ,tdj,False,False
+starrza,telykast,False,False
+steve aoki,the archer,True,False
+steve leclair,the martinez brothers,False,False
+steve loria,tim clark,False,True
+sub focus,timmy trumpet,True,False
+sub zero project,tinlicker,True,True
+subtronics,tiësto,True,True
+superstrings,todd terry,False,False
+sussybaka,tokimonsta,False,False
+synnhaven,tom and collins,False,False
+t78,torren foot,False,False
+tavatli,trickstar,False,False
+taylor kade,trivecta,True,False
+tensteps,trouble,False,True
+the carry nation,troyboi,False,False
+the chainsmokers,truth,False,False
+the kandyman,tsha,False,False
+the masquerade,twenty six,False,False
+the outlaw,uncle waffles,False,False
+the prodigy,valentino khan,False,False
+the purge,vari,False,False
+the saints,vastive,False,False
+thomas schumacher,vavo,False,False
+tiga,vini vici,False,False
+tim clark,vintage culture,True,True
+tinlicker,virtual riot,True,True
+tiësto,vnssa,True,True
+toman,wade,False,False
+toneshifterz,wakyin,False,False
+tony gamboa,walker and royce,False,True
+topcat,ward andrews,False,True
+trace,warface,False,True
+trouble,water spirit,True,False
+tsu nami,wes mills,False,False
+underworld,westend,False,True
+vessel,wildstylez,False,False
+vicious,wilkinson,False,False
+vieze asbak,wooli,False,True
+vigro deep,wuki,False,False
+vintage culture,x club.,True,False
+viperactive,xandra,False,False
+virtual riot,ydg,True,True
+vnssa,yellow claw,True,False
+vtss,yoji biomehanika,False,False
+vulkauf,yosuf,False,True
+walker and royce,yotto,True,False
+ward andrews,zedd,True,True
+warface,zeds dead,True,False
+warung,zevy,False,False
+wax motif,zhu,False,False
+westend,zomboy,True,False
+whethan,öwnboss,False,False
+william black,øtta,False,False
+willie pake,€uro tra$h,False,False
+wolfie,,False,False
+wooli,,True,False
+ydg,,True,False
+yosuf,,True,False
+zaanee,,False,False
+zakes bantwini,,False,False
+zedd,,True,False
+æon:mode,,False,False
