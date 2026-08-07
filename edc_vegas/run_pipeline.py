@@ -114,9 +114,12 @@ def print_summary(year, eval_ran):
     print(f"Scored {len(df)} artists, predicted lineup: {len(picked)}")
     print(f"Full ranking: {os.path.relpath(pred_path, SCRIPT_DIR)}\n")
     print("Top 15 by probability:")
+    # Report the original spelling when the prediction CSV carries it; the
+    # normalized `artist` column is only for matching.
+    name_col = 'artist_display' if 'artist_display' in df.columns else 'artist'
     top = df.sort_values('probability', ascending=False).head(15)
     for _, row in top.iterrows():
-        print(f"  {row['probability']:.3f}  {row['artist']}")
+        print(f"  {row['probability']:.3f}  {row[name_col]}")
 
     if not eval_ran:
         return

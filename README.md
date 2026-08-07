@@ -11,6 +11,8 @@ Tutorials videos from [YouTube](https://www.youtube.com):
 - Akamai Developer for [how to implement Spotify's API](https://youtu.be/WAmEZBEeNmg?si=J_uIipxrSFJi0QFS)
 - [All Machine Learning algorithms explained](https://youtu.be/E0Hmnixke2g?si=49J7HuTpBgAEqolA)
 
+> 🧭 **New to this project?** [`HANDOVER.md`](HANDOVER.md) explains the pipeline logic stage by stage, the design decisions behind it, the traps already hit once, and what to work on next.
+
 ## Project Structure
 
 The project is organized into two festival sub-projects, each in its own folder:
