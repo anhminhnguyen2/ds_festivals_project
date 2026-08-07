@@ -2,6 +2,8 @@
 
 The purpose of this project is to help music lovers to predict the line up of their next festivals. The data will be collected from previous year's line up and the popularity of the artists to accurately predict the current/next year line up.
 
+**How accurate is it?** Backtested against the real EDC Las Vegas 2026 lineup, the model correctly named **131 of the 438 artists** who actually played. Of the artists it *could* have known about, it caught **69.3%**. Full breakdown — including why plain accuracy is a misleading metric here — in [Model Accuracy](#model-accuracy-how-good-is-it-really).
+
 Tutorials videos from [YouTube](https://www.youtube.com):
 - Ken Jee's [Data Science Project from Scratch](https://www.youtube.com/@KenJee_ds) series. 
 - Alex The Analyst for [web scraping](https://youtu.be/8dTpNajxaH0?si=alUzpn-dE3lk3T28) and [data cleaning]
@@ -165,7 +167,7 @@ This yields **1,946 training rows** (2 × 973 artists) instead of 973.
 
 ### Step 7: Evaluation Against Actual 2026 Lineup (`7.compare_w_actual_lineup_for_curr_year.ipynb`)
 
-The actual 2026 EDC Las Vegas lineup was scraped and compared against predictions. Standard accuracy was intentionally ignored — guessing "no one plays" yields ~97% accuracy and tells us nothing useful (the **True Negative Illusion**). Artist names are normalized on both sides (`&` → `and`, lowercase, deduplicated) before matching.
+The actual 2026 EDC Las Vegas lineup was scraped and compared against predictions. Artist names are normalized on both sides (`&` → `and`, lowercase, deduplicated) before matching.
 
 **Results — both models scored against the complete final lineup (438 unique artists):**
 
@@ -190,6 +192,72 @@ The actual 2026 EDC Las Vegas lineup was scraped and compared against prediction
 | + cutoff recalibrated to full lineup size (top-430 instead of top-285) | **30.2%** |
 
 **Structural limit:** 249 of the 438 actual artists (57%) don't exist in the master dataset at all — mostly 2026 debuts who never played 2022–2025 and aren't on a scraped agency roster. The maximum achievable recall with the current candidate pool is **43.2%**, so growing the pool is the biggest remaining lever (see below).
+
+---
+
+## Model Accuracy: How Good Is It, Really?
+
+### ⚠️ Why plain accuracy is the wrong headline number
+
+The model scores a pool of **973 candidate artists** and flags the top 430. Only 189 of those 973 actually played EDC 2026, so a model that predicts **"nobody plays"** — a single line of code that learns nothing — scores **80.6% accuracy**. This is the **True Negative Illusion**: accuracy rewards being right about the ~800 artists who obviously weren't going to play, which is not the question anyone is asking.
+
+For reference, here is the model's raw accuracy against the actual 2026 lineup:
+
+| Model | Accuracy |
+|-------|----------|
+| Predict "nobody plays" (do-nothing baseline) | **80.57%** |
+| This model (top-430 cutoff) | **63.31%** |
+
+The model scores *lower* on accuracy than doing nothing — and that is expected and fine. It deliberately trades true negatives for true positives: it names 430 artists in order to catch 131 real ones, and every wrong name it stakes costs accuracy. **Precision, recall, and F1 are the metrics that matter here**, which is why the sections above lead with them.
+
+### Confusion matrix (2026 backtest, 973 scored candidates)
+
+|                     | Actually played | Did not play |
+|---------------------|-----------------|--------------|
+| **Predicted to play**   | **131** (TP)    | 299 (FP)     |
+| **Predicted not to play** | 58 (FN)       | 485 (TN)     |
+
+Derived from this table:
+
+| Metric | Value | Reading |
+|--------|-------|---------|
+| Precision | **30.47%** | Of the 430 artists named, 131 actually played — roughly 1 in 3 |
+| Recall (vs. full 438-artist lineup) | **29.91%** | Of everyone who played, the model named ~30% |
+| **Recall (vs. the 189 it could reach)** | **69.31%** | **When an artist exists in the dataset, the model finds them ~7 times out of 10** |
+| F1 Score | **30.18%** | Harmonic mean of precision and the full-lineup recall |
+| Accuracy | 63.31% | See caveat above — not a meaningful score here |
+
+The 69.31% number is the fairest read of the *model's* skill. The gap between it and the 29.91% headline recall is not a modelling failure but a **data coverage failure** — 249 of the 438 artists were never in the candidate pool to begin with, so no ranking algorithm could have surfaced them.
+
+### Accuracy on historical data (before the 2026 lineup existed)
+
+Two sanity checks on the training slices themselves, both using the same tuned Random Forest:
+
+**5-fold cross-validation across both slices (1,946 rows, 35.3% positive):**
+
+| Metric | Score | Baseline |
+|--------|-------|----------|
+| Accuracy | **74.31%** | 64.70% (majority class) |
+| Balanced accuracy | **73.00%** | 50.00% (random) |
+| ROC-AUC | **0.753** | 0.500 (random) |
+| Precision / Recall / F1 | 62.38% / 68.56% / **65.33%** | — |
+
+**Out-of-time test (train on the 2022–2023 → 2024 slice, predict the 2025 lineup):**
+
+| Metric | Score | Baseline |
+|--------|-------|----------|
+| Accuracy | **79.03%** | 64.13% (majority class) |
+| Balanced accuracy | **73.93%** | 50.00% |
+| ROC-AUC | **0.840** | 0.500 |
+| Precision / Recall / F1 | 79.59% / 55.87% / **65.66%** | — |
+
+Here accuracy *is* informative, because these slices are far more balanced (~35% of the pool plays in any given year) and every artist scored is one the model genuinely could have known about. An ROC-AUC of **0.84** on a full year it never saw during training means the ranking itself is sound — given two artists, one who played 2025 and one who didn't, the model ranks the right one higher **84% of the time**.
+
+### So what should you take away?
+
+- The ranking is genuinely good: **ROC-AUC 0.84** out-of-time, **69.3% recall** on reachable artists.
+- The end-to-end product is limited by coverage, not by the algorithm: **57% of the 2026 lineup was invisible** to the model, capping recall at 43.2%.
+- Improving the headline F1 past ~30% is therefore mostly a **data collection** problem (expand the candidate pool — see below), not a modelling one.
 
 
 ## For Future Predictions (EDC 2027 & Beyond)
