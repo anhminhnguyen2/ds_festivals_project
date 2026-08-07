@@ -31,11 +31,113 @@ exist) → 6 (train + predict, `current_year` set automatically from `--year`) �
 7 (evaluate — failure here is non-fatal, e.g. when the lineup isn't announced
 yet), then prints the top-15 predictions and evaluation metrics.
 
-Before it will run you still need, per target year: the residency CSV
-(`data/extract/{Y}_vegas_recidency.csv` — required, checked up front), the
-producer ranking (optional), and the two interactive scrapes done separately —
-notebook 1 (lineups/rosters, annually) and `artist_metrics.py` (metrics,
-monthly).
+---
+
+## Predicting a different year, end to end
+
+This is the full procedure for pointing the pipeline at any target year `{Y}`.
+Examples below use **2027**; substitute your year everywhere.
+
+### Step 0 — Pick the year
+
+```
+cd edc_vegas
+python run_pipeline.py --year 2027
+```
+
+`--year` is the festival edition you want to **predict**. Omit it and the script
+picks the next edition itself: EDC Vegas happens in May, so before June it
+assumes the current year, and from June onward it assumes next year. (Running
+bare in August 2026 therefore targets 2027.) Pass `--year` explicitly whenever
+you want to be certain — it costs nothing and removes all ambiguity.
+
+You never edit `current_year` by hand. The script rewrites that variable inside
+notebooks 6 and 7 for you.
+
+### Step 1 — Make sure the inputs for `{Y}` exist
+
+The pipeline preflights these and refuses to start if a required one is missing.
+
+| Input | Path | Required? | How to get it |
+|-------|------|-----------|---------------|
+| Previous lineup(s) | `data/extract/{Y-1}_edc_lineup.csv` | Yes (at least one lineup file) | Notebook 1, **after** the `{Y-1}` festival |
+| Vegas residencies | `data/extract/{Y}_vegas_recidency.csv` | **Yes** | Manual/scraped list; columns `artist,recidency_club` |
+| Metrics snapshot | `data/metrics_snapshots/artist_stats_*.csv` | Yes (at least one) | `artist_metrics.py` |
+| Producer ranking | `data/extract/{Y-1}_producer_rank.csv` | No | Producer top-100 scrape; feature is 0 if absent |
+
+Note the year offsets: the residency file is named for the **target** year, the
+producer ranking for the **previous** year.
+
+> ⚠️ Scrape the `{Y-1}` lineup only **after** that festival has happened, when
+> the page shows the complete final lineup (~370–440 artists). An early scrape
+> is partial (~260) and permanently understates artist history — this is the
+> single most damaging mistake you can make to the training data.
+
+### Step 2 — Run it
+
+```
+python run_pipeline.py --year 2027
+```
+
+Expect this to take a while: it executes five notebooks via `nbconvert` (a
+20-minute timeout applies to each individual cell). Each stage prints a banner
+and an OK/FAILED line with timing, so you can see where it is.
+
+The `{Y-1}` lineup you scraped in step 1 does more than add candidates — it adds
+a whole new **training slice** (`2022–{Y-2}` features → played `{Y-1}`?), which
+is why step 1 matters more than anything else you can do in a given year.
+
+### Step 3 — Check the output
+
+The run ends with a summary block: how many artists were scored, how many were
+picked, and the top 15 by probability. The full ranking lands in:
+
+```
+data/result_prediction/edc_{Y}_prediction.csv
+```
+
+Every candidate is scored; `result = 1` marks the predicted lineup (top
+`TARGET_LINEUP_SIZE`, currently 430). Sanity checks: ~973 artists scored (it
+grows as the pool grows), 430 flagged, and the top of the ranking should be
+recognizable headliners. If the top looks random, something upstream broke —
+suspect a failed join from unnormalized names.
+
+### Step 4 — Evaluate once the lineup is announced
+
+Before the announcement, the evaluation stage is *expected* to fail; the script
+says so and the prediction itself is unaffected. To skip the noise:
+
+```
+python run_pipeline.py --year 2027 --skip-eval
+```
+
+Once the lineup is out, you don't need to redo the whole pipeline — just re-run
+evaluation against the existing prediction:
+
+```
+python run_pipeline.py --year 2027 --skip-data
+```
+
+Better still, **re-run it again after the festival**, when the page finally shows
+the complete lineup. Numbers scored against a partial announcement are not
+comparable to numbers scored against a full lineup — always record which one you
+used.
+
+### Iterating without re-scraping
+
+`--skip-data` reuses the existing master dataset and jumps straight to training,
+predicting and evaluating. Use it whenever you're changing the model or the
+cutoff rather than the data — it turns a long run into a short one.
+
+### When it won't start
+
+| Message | Fix |
+|---------|-----|
+| `Missing data/extract/{Y}_vegas_recidency.csv` | Create the residency CSV for the target year (`artist,recidency_club`) |
+| `No *_edc_lineup.csv files in data/extract/` | Run notebook 1 first |
+| `No raw metrics snapshot found` | Run `artist_metrics.py` at least once |
+| `Note: no {Y-1}_producer_rank.csv` | Not an error — the feature is simply 0 |
+| A notebook stage prints FAILED | The last 25 lines of the nbconvert error are printed; run that notebook by hand to debug |
 
 ---
 
@@ -67,6 +169,11 @@ Example below uses predicting **EDC 2027**. Do this after the previous festival
 > Steps 2–4 and 6–7 are exactly what `run_pipeline.py` automates — they are
 > documented individually here so you know what each one does and can run any
 > step by hand. Steps 1 and 5 stay manual.
+>
+> **If you just want to run the whole thing for a given year, use
+> [Predicting a different year, end to end](#predicting-a-different-year-end-to-end)
+> instead** — this section is the manual, notebook-by-notebook breakdown of what
+> that command does.
 
 ### 1. Scrape the newest completed lineup — `notebook/1.collect_data.ipynb`
 
